@@ -39,3 +39,5 @@ models/downloads/
 # Operating System
 .DS_Store
 Thumbs.db
+
+.vercel
