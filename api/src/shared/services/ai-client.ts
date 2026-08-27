@@ -1,4 +1,4 @@
-import axios, { type AxiosInstance, isAxiosError } from 'axios';
+import axios, { type AxiosInstance } from 'axios';
 import FormData from 'form-data';
 import fs from 'node:fs';
 import { z } from 'zod';
