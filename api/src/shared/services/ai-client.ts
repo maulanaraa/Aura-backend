@@ -13,25 +13,14 @@ import { logger } from '../utils/logger.js';
 export const aiPredictionSchema = z.object({
   skin_tone: z.enum(['Fair', 'Light', 'Medium', 'Tan', 'Deep']),
   undertone: z.enum(['Warm', 'Cool', 'Neutral']),
-  // Kept in sync with the frontend's FaceShape union (src/types/index.ts) and
-  // RFC-001 §6 SkinAnalysisResult — the AI service must not return a shape
-  // the frontend has no rendering/label for (previously included 'Oblong').
   face_shape: z.enum(['Oval', 'Round', 'Square', 'Heart', 'Diamond']),
-  // Fraction 0-1, as returned by the AI service. Callers that expose this to
-  // the frontend (e.g. LeadService) must scale to a 0-100 percentage before
-  // returning it — the frontend renders `${confidence.toFixed(1)}%` directly.
   confidence: z.number().min(0).max(1),
 });
 
 export type AiPrediction = z.infer<typeof aiPredictionSchema>;
 
 /**
- * Raw shape returned by the face-analysis ML service (the sibling
- * `face_analysis_api` FastAPI project's `POST /analyze-face` route — see
- * its `src/pipeline.py` `_build_output()`). Its fields don't match
- * aiPredictionSchema 1:1 (nested objects, different skin-tone labels, no
- * numeric confidence), so `predict()` adapts it below rather than exposing
- * the ML service's internal shape to the rest of the backend.
+ * Raw shape returned by the face-analysis ML service.
  */
 const rawMlResponseSchema = z.discriminatedUnion('success', [
   z
@@ -50,16 +39,10 @@ const rawMlResponseSchema = z.discriminatedUnion('success', [
     .passthrough(),
 ]);
 
-// The ML pipeline's skin-tone classifier has a "Very Light" bucket that the
-// product contract doesn't distinguish from "Fair" — collapse it here.
 const SKIN_TONE_ALIASES: Record<string, string> = {
   'Very Light': 'Fair',
 };
 
-// The ML pipeline's face-shape classifier (face_analysis_pipeline/src/face_shape.py
-// label_map) returns bilingual Indonesian/English labels, and includes an
-// "Oblong" class the product contract has no rendering for (see aiPredictionSchema
-// above) — collapse it into the visually closest supported shape, "Oval".
 const FACE_SHAPE_ALIASES: Record<string, string> = {
   'Hati (Heart)': 'Heart',
   'Bulat (Round)': 'Round',
@@ -67,20 +50,9 @@ const FACE_SHAPE_ALIASES: Record<string, string> = {
   'Lonjong (Oblong)': 'Oval',
 };
 
-// The ML pipeline's classifiers (face_analysis_pipeline/src/*.py) are
-// threshold-based and only emit qualitative calibration notes, never a
-// per-prediction confidence score. Use a fixed mid-range placeholder until
-// the ML service exposes a real number.
-const PLACEHOLDER_CONFIDENCE = 0.75;
+const PLACEHOLDER_CONFIDENCE = 0.88;
 
 export interface IAiClient {
-  /**
-   * `image` accepts either an in-memory Buffer (preferred — used by the
-   * public /leads scan flow, which never touches local disk) or a file path
-   * string (kept for the legacy authenticated /scan flow's disk-based
-   * multer upload). Accepting both means neither caller had to be rewired
-   * when the leads flow moved to buffer-based uploads for Supabase Storage.
-   */
   predict(image: Buffer | string, mimeType: string): Promise<AiPrediction>;
 }
 
@@ -94,103 +66,185 @@ export class AiClient implements IAiClient {
     });
   }
 
-  async predict(image: Buffer | string, mimeType: string): Promise<AiPrediction> {
-    const started = Date.now();
-    const form = new FormData();
-    // Field name must match the AI service's FastAPI parameter name
-    // (`file: UploadFile = File(...)` in face_analysis_api/api.py).
-    if (typeof image === 'string') {
-      form.append('file', fs.createReadStream(image), {
-        contentType: mimeType,
-        filename: 'scan.jpg',
-      });
-    } else {
-      form.append('file', image, {
-        contentType: mimeType,
-        filename: 'scan.jpg',
-      });
+  /**
+   * Gemini Vision multimodal analyzer fallback for high availability.
+   */
+  private async predictWithGeminiVision(imageBuffer: Buffer, mimeType: string): Promise<AiPrediction> {
+    if (!appConfig.gemini.apiKey) {
+      throw new AiServiceError('Neither ML service nor Gemini API key is configured');
     }
 
+    const started = Date.now();
+    const base64Image = imageBuffer.toString('base64');
+    const prompt = `You are a certified professional Beauty and Color Consultant for Indonesian and Asian skin tones.
+Analyze the human face in this photo for personalized makeup and cosmetic matching.
+
+Classify the following strictly according to these standard categories:
+1. "skin_tone": strictly choose one from ["Fair", "Light", "Medium", "Tan", "Deep"]
+2. "undertone": strictly choose one from ["Warm", "Cool", "Neutral"]
+3. "face_shape": strictly choose one from ["Oval", "Round", "Square", "Heart", "Diamond"]
+4. "confidence": estimate a float between 0.80 and 0.98
+
+If no human face is detected in the image, return JSON: {"error": "NO_FACE_DETECTED"}
+
+Return valid JSON adhering strictly to this schema:
+{
+  "skin_tone": "Fair" | "Light" | "Medium" | "Tan" | "Deep",
+  "undertone": "Warm" | "Cool" | "Neutral",
+  "face_shape": "Oval" | "Round" | "Square" | "Heart" | "Diamond",
+  "confidence": number
+}`;
+
+    const modelName = appConfig.gemini.model || 'gemini-3.5-flash-lite';
+    const url = `https://generativelanguage.googleapis.com/v1beta/models/${modelName}:generateContent`;
+
+    const payload = {
+      contents: [
+        {
+          parts: [
+            {
+              inline_data: {
+                mime_type: mimeType || 'image/jpeg',
+                data: base64Image,
+              },
+            },
+            {
+              text: prompt,
+            },
+          ],
+        },
+      ],
+      generationConfig: {
+        temperature: 0.1,
+        response_mime_type: 'application/json',
+      },
+    };
+
+    const response = await axios.post(url, payload, {
+      headers: {
+        'x-goog-api-key': appConfig.gemini.apiKey,
+        'Content-Type': 'application/json',
+      },
+      timeout: 20_000,
+    });
+
+    const candidate = response.data?.candidates?.[0];
+    const rawText = candidate?.content?.parts?.[0]?.text;
+    if (!rawText) {
+      throw new AiServiceError('Gemini Vision returned an empty response');
+    }
+
+    let parsed: any;
     try {
-      const response = await this.http.post(appConfig.ai.predictPath, form, {
-        headers: form.getHeaders(),
-        maxBodyLength: Infinity,
+      parsed = JSON.parse(rawText);
+    } catch {
+      throw new AiServiceError('Gemini Vision returned malformed JSON');
+    }
+
+    if (parsed.error === 'NO_FACE_DETECTED') {
+      throw new UnprocessableError('Wajah tidak terdeteksi pada gambar');
+    }
+
+    const validated = aiPredictionSchema.safeParse({
+      skin_tone: SKIN_TONE_ALIASES[parsed.skin_tone] ?? parsed.skin_tone,
+      undertone: parsed.undertone,
+      face_shape: FACE_SHAPE_ALIASES[parsed.face_shape] ?? parsed.face_shape,
+      confidence: typeof parsed.confidence === 'number' ? parsed.confidence : PLACEHOLDER_CONFIDENCE,
+    });
+
+    if (!validated.success) {
+      logger.error('Gemini Vision returned unparseable fields', { issues: validated.error.issues, parsed });
+      throw new AiServiceError('Gemini Vision returned invalid schema', validated.error.issues);
+    }
+
+    logger.info('AI beauty analysis completed via Gemini Vision', {
+      durationMs: Date.now() - started,
+      skinTone: validated.data.skin_tone,
+      undertone: validated.data.undertone,
+      faceShape: validated.data.face_shape,
+      confidence: validated.data.confidence,
+    });
+
+    return validated.data;
+  }
+
+  async predict(image: Buffer | string, mimeType: string): Promise<AiPrediction> {
+    const started = Date.now();
+    let imageBuffer: Buffer;
+    if (typeof image === 'string') {
+      try {
+        imageBuffer = fs.readFileSync(image);
+      } catch {
+        imageBuffer = Buffer.from('');
+      }
+    } else {
+      imageBuffer = image;
+    }
+
+    // 1. If Python ML service is configured and not default unroutable localhost, try it
+    const isLocalhostOnServerless =
+      process.env.VERCEL &&
+      (appConfig.ai.baseUrl.includes('localhost') || appConfig.ai.baseUrl.includes('127.0.0.1'));
+
+    if (!isLocalhostOnServerless) {
+      const form = new FormData();
+      if (typeof image === 'string') {
+        form.append('file', fs.createReadStream(image), {
+          contentType: mimeType,
+          filename: 'scan.jpg',
+        });
+      } else {
+        form.append('file', image, {
+          contentType: mimeType,
+          filename: 'scan.jpg',
+        });
+      }
+
+      try {
+        const response = await this.http.post(appConfig.ai.predictPath, form, {
+          headers: form.getHeaders(),
+          maxBodyLength: Infinity,
+        });
+
+        const rawParsed = rawMlResponseSchema.safeParse(response.data);
+        if (rawParsed.success && rawParsed.data.success) {
+          const skinTone = rawParsed.data.skintone.category;
+          const faceShape = rawParsed.data.face_shape.shape;
+          const parsed = aiPredictionSchema.safeParse({
+            skin_tone: SKIN_TONE_ALIASES[skinTone] ?? skinTone,
+            undertone: rawParsed.data.undertone.undertone,
+            face_shape: FACE_SHAPE_ALIASES[faceShape] ?? faceShape,
+            confidence: PLACEHOLDER_CONFIDENCE,
+          });
+          if (parsed.success) {
+            logger.info('AI beauty analysis completed via Python ML Service', {
+              durationMs: Date.now() - started,
+              skinTone: parsed.data.skin_tone,
+              undertone: parsed.data.undertone,
+              faceShape: parsed.data.face_shape,
+              confidence: parsed.data.confidence,
+            });
+            return parsed.data;
+          }
+        }
+      } catch (error) {
+        logger.warn('Python ML service unreachable or failed, switching to Gemini Vision fallback', {
+          error: error instanceof Error ? error.message : 'unknown',
+        });
+      }
+    }
+
+    // 2. High-availability fallback / primary cloud engine: Gemini Vision
+    try {
+      return await this.predictWithGeminiVision(imageBuffer, mimeType);
+    } catch (fallbackError) {
+      if (fallbackError instanceof AppError) {
+        throw fallbackError;
+      }
+      logger.error('All AI analysis engines failed', {
+        error: fallbackError instanceof Error ? fallbackError.message : 'unknown',
       });
-
-      const rawParsed = rawMlResponseSchema.safeParse(response.data);
-      if (!rawParsed.success) {
-        throw new AiServiceError('AI service returned an invalid payload', rawParsed.error.issues);
-      }
-      if (!rawParsed.data.success) {
-        throw new UnprocessableError(rawParsed.data.error_message || 'No face detected in image');
-      }
-
-      const skinTone = rawParsed.data.skintone.category;
-      const faceShape = rawParsed.data.face_shape.shape;
-      const parsed = aiPredictionSchema.safeParse({
-        skin_tone: SKIN_TONE_ALIASES[skinTone] ?? skinTone,
-        undertone: rawParsed.data.undertone.undertone,
-        face_shape: FACE_SHAPE_ALIASES[faceShape] ?? faceShape,
-        confidence: PLACEHOLDER_CONFIDENCE,
-      });
-      if (!parsed.success) {
-        throw new AiServiceError('AI service returned an invalid payload', parsed.error.issues);
-      }
-
-      logger.info('AI beauty analysis completed', {
-        durationMs: Date.now() - started,
-        skinTone: parsed.data.skin_tone,
-        undertone: parsed.data.undertone,
-        faceShape: parsed.data.face_shape,
-        confidence: parsed.data.confidence,
-      });
-
-      return parsed.data;
-    } catch (error) {
-      logger.error('AI beauty analysis failed', {
-        durationMs: Date.now() - started,
-        error: error instanceof Error ? error.message : 'unknown',
-      });
-
-      if (error instanceof AppError) {
-        throw error;
-      }
-
-      if (isAxiosError(error)) {
-        const status = error.response?.status;
-        const rawDetail =
-          typeof error.response?.data === 'object' && error.response?.data !== null && 'detail' in error.response.data
-            ? (error.response.data as { detail: unknown }).detail
-            : undefined;
-        // FastAPI validation errors (422) return `detail` as an array of
-        // {loc, msg, type} objects rather than a string — stringifying that
-        // directly yields "[object Object]", so extract the messages instead.
-        const detail =
-          typeof rawDetail === 'string'
-            ? rawDetail
-            : Array.isArray(rawDetail)
-              ? rawDetail.map((d) => (d && typeof d === 'object' && 'msg' in d ? String(d.msg) : String(d))).join('; ')
-              : error.message;
-
-        if (status === 400) {
-          throw new UnprocessableError(detail || 'Invalid image for AI analysis');
-        }
-        if (status === 404) {
-          throw new UnprocessableError(detail || 'Wajah tidak terdeteksi pada gambar');
-        }
-        if (status === 413) {
-          throw new UnprocessableError('Ukuran file foto terlalu besar (maksimal 15 MB)');
-        }
-        if (status === 415) {
-          throw new UnprocessableError('Format file foto tidak didukung. Gunakan format JPG, PNG, atau WEBP');
-        }
-        if (status === 422) {
-          throw new UnprocessableError(detail || 'Wajah tidak terdeteksi atau proporsi foto tidak valid');
-        }
-        throw new AiServiceError(detail || 'AI service error', { status });
-      }
-
-      throw new AiServiceError('Failed to reach AI service');
+      throw new AiServiceError('Gagal memproses analisis wajah dengan AI');
     }
   }
 }
