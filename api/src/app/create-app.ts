@@ -1,7 +1,6 @@
 import express, { type Application } from 'express';
 import helmet from 'helmet';
 import cors from 'cors';
-import compression from 'compression';
 import morgan from 'morgan';
 import path from 'node:path';
 import swaggerUi from 'swagger-ui-express';
