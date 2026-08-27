@@ -25,9 +25,16 @@ export const apiRateLimiter = rateLimit({
   statusCode: HTTP_STATUS.TOO_MANY_REQUESTS,
 });
 
-const uploadRoot = path.resolve(process.cwd(), appConfig.upload.dir);
-if (!fs.existsSync(uploadRoot)) {
-  fs.mkdirSync(uploadRoot, { recursive: true });
+const uploadRoot = path.resolve(
+  process.env.VERCEL ? '/tmp' : process.cwd(),
+  appConfig.upload.dir,
+);
+try {
+  if (!fs.existsSync(uploadRoot)) {
+    fs.mkdirSync(uploadRoot, { recursive: true });
+  }
+} catch {
+  // Ignored in read-only filesystems
 }
 
 const storage = multer.diskStorage({

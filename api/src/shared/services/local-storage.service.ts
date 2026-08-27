@@ -26,9 +26,13 @@ export class LocalStorageService implements IStorageService {
     uploadDir: string,
     private readonly publicBaseUrl: string,
   ) {
-    this.root = path.resolve(process.cwd(), uploadDir);
-    if (!fs.existsSync(this.root)) {
-      fs.mkdirSync(this.root, { recursive: true });
+    this.root = path.resolve(process.env.VERCEL ? '/tmp' : process.cwd(), uploadDir);
+    try {
+      if (!fs.existsSync(this.root)) {
+        fs.mkdirSync(this.root, { recursive: true });
+      }
+    } catch {
+      // Ignored in read-only filesystems
     }
   }
 
