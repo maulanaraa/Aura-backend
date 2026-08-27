@@ -1,0 +1,21 @@
+import { createApp } from './app/create-app.js';
+import { connectDatabase } from './database/prisma.js';
+
+let appInstance: any = null;
+
+export default async function handler(req: any, res: any) {
+  try {
+    await connectDatabase();
+    if (!appInstance) {
+      appInstance = createApp();
+    }
+    return appInstance(req, res);
+  } catch (error) {
+    console.error('Serverless handler error:', error);
+    return res.status(500).json({
+      status: 'error',
+      message: 'Internal Server Error',
+      error: error instanceof Error ? error.message : String(error),
+    });
+  }
+}
