@@ -38,11 +38,13 @@ load_dotenv()
 # folder ML belum dikemas sebagai package (belum ada pyproject.toml/setup.py).
 # Ini pendekatan paling sederhana untuk skala proyek capstone -- cukup pastikan
 # struktur folder BE & ML bertetangga persis seperti di README.md.
-# ---------------------------------------------------------------------------
-ML_PROJECT_PATH = os.environ.get(
-    "ML_PROJECT_PATH",
+candidate_paths = [
+    os.environ.get("ML_PROJECT_PATH"),
     os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "ai-pipeline"),
-)
+    os.path.join(os.path.dirname(os.path.abspath(__file__)), "ai-pipeline"),
+    os.path.join(os.getcwd(), "ai-pipeline"),
+]
+ML_PROJECT_PATH = next((p for p in candidate_paths if p and os.path.exists(p)), candidate_paths[1])
 sys.path.insert(0, ML_PROJECT_PATH)
 
 try:
