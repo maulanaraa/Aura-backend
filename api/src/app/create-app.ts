@@ -44,16 +44,23 @@ export function createApp(options: CreateAppOptions = {}): Application {
       credentials: true,
     }),
   );
-  app.use(compression());
   app.use((req, res, next) => {
-    if (req.body !== undefined && typeof req.body === 'object') {
-      return next();
+    try {
+      if (req.body !== undefined && typeof req.body === 'object') {
+        return next();
+      }
+    } catch {
+      // Ignored
     }
     express.json({ limit: '1mb' })(req, res, next);
   });
   app.use((req, res, next) => {
-    if (req.body !== undefined && typeof req.body === 'object') {
-      return next();
+    try {
+      if (req.body !== undefined && typeof req.body === 'object') {
+        return next();
+      }
+    } catch {
+      // Ignored
     }
     express.urlencoded({ extended: true })(req, res, next);
   });
