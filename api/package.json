@@ -9,7 +9,7 @@
   },
   "scripts": {
     "dev": "tsx watch src/main.ts",
-    "build": "npx prisma generate && esbuild src/serverless.ts --bundle --platform=node --target=node20 --format=esm --outfile=api/index.js --external:@prisma/client --external:bcrypt --external:bufferutil --external:utf-8-validate && tsc -p tsconfig.build.json",
+    "build": "npx prisma generate && esbuild src/serverless.ts --bundle --platform=node --target=node20 --format=esm --packages=external --outfile=api/index.js && tsc -p tsconfig.build.json",
     "start": "node dist/main.js",
     "lint": "eslint \"src/**/*.ts\" \"tests/**/*.ts\"",
     "lint:fix": "eslint \"src/**/*.ts\" \"tests/**/*.ts\" --fix",
