@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# Build output & TypeScript
+dist/
+coverage/
+*.tsbuildinfo
+
+# Local Uploads
+uploads/*
+!uploads/.gitkeep
+
+# Database & Prisma
+prisma/*.db
+prisma/*.db-journal
+
+# Environment & Secrets
+.env
+.env.local
+!.env.example
+
+# Logs & IDE
+*.log
+.DS_Store
+.idea/
+.vscode/
+.claude/
+graphify-out/
+
+/generated/prisma
+
+# Supabase CLI local cache/link state — machine-specific, never commit
+supabase/.temp/

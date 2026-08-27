@@ -1,0 +1,1201 @@
+recommendation_id,personal_color,undertone,skin_tone,category,product_id,recommendation_score,priority,reason
+RID00001,Spring,Warm,Fair,Foundation,PID0072,99,1,warm undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00002,Spring,Warm,Fair,Foundation,PID0073,99,2,warm undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00003,Spring,Warm,Fair,Foundation,PID0167,99,3,warm undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00004,Spring,Warm,Fair,Foundation,PID0207,99,4,warm undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00005,Spring,Warm,Fair,Foundation,PID0208,99,5,warm undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00006,Spring,Warm,Fair,Cushion,PID0095,99,1,warm undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00007,Spring,Warm,Fair,Cushion,PID0099,99,2,warm undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00008,Spring,Warm,Fair,Cushion,PID0251,99,3,warm undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00009,Spring,Warm,Fair,Cushion,PID0010,98,4,warm undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00010,Spring,Warm,Fair,Cushion,PID0012,98,5,warm undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00011,Spring,Warm,Fair,Concealer,PID0233,99,1,warm undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00012,Spring,Warm,Fair,Concealer,PID0259,99,2,warm undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00013,Spring,Warm,Fair,Concealer,PID0269,99,3,warm undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00014,Spring,Warm,Fair,Concealer,PID0257,98,4,warm undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00015,Spring,Warm,Fair,Concealer,PID0267,98,5,warm undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00016,Spring,Warm,Fair,Blush,PID0276,93,1,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00017,Spring,Warm,Fair,Blush,PID0282,93,2,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00018,Spring,Warm,Fair,Blush,PID0122,92,3,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00019,Spring,Warm,Fair,Blush,PID0127,92,4,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00020,Spring,Warm,Fair,Blush,PID0132,92,5,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00021,Spring,Warm,Fair,Lipstick,PID0108,92,1,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00022,Spring,Warm,Fair,Lipstick,PID0110,92,2,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00023,Spring,Warm,Fair,Lipstick,PID0227,92,3,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00024,Spring,Warm,Fair,Lipstick,PID0041,91,4,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00025,Spring,Warm,Fair,Lipstick,PID0046,91,5,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00026,Spring,Warm,Fair,Eyeshadow,PID0289,93,1,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00027,Spring,Warm,Fair,Eyeshadow,PID0130,92,2,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00028,Spring,Warm,Fair,Eyeshadow,PID0069,91,3,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00029,Spring,Warm,Fair,Eyeshadow,PID0290,87,4,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00030,Spring,Warm,Fair,Eyeshadow,PID0196,61,5,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00031,Spring,Warm,Light,Foundation,PID0002,99,1,warm undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00032,Spring,Warm,Light,Foundation,PID0072,99,2,warm undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00033,Spring,Warm,Light,Foundation,PID0073,99,3,warm undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00034,Spring,Warm,Light,Foundation,PID0074,99,4,warm undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00035,Spring,Warm,Light,Foundation,PID0167,99,5,warm undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00036,Spring,Warm,Light,Cushion,PID0010,99,1,warm undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00037,Spring,Warm,Light,Cushion,PID0012,99,2,warm undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00038,Spring,Warm,Light,Cushion,PID0024,99,3,warm undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00039,Spring,Warm,Light,Cushion,PID0025,99,4,warm undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00040,Spring,Warm,Light,Cushion,PID0095,99,5,warm undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00041,Spring,Warm,Light,Concealer,PID0233,99,1,warm undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00042,Spring,Warm,Light,Concealer,PID0259,99,2,warm undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00043,Spring,Warm,Light,Concealer,PID0269,99,3,warm undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00044,Spring,Warm,Light,Concealer,PID0258,98,4,warm undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00045,Spring,Warm,Light,Concealer,PID0268,98,5,warm undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00046,Spring,Warm,Light,Blush,PID0276,97,1,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00047,Spring,Warm,Light,Blush,PID0282,97,2,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00048,Spring,Warm,Light,Blush,PID0122,96,3,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00049,Spring,Warm,Light,Blush,PID0127,96,4,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00050,Spring,Warm,Light,Blush,PID0132,96,5,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00051,Spring,Warm,Light,Lipstick,PID0108,96,1,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00052,Spring,Warm,Light,Lipstick,PID0110,96,2,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00053,Spring,Warm,Light,Lipstick,PID0227,96,3,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00054,Spring,Warm,Light,Lipstick,PID0041,95,4,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00055,Spring,Warm,Light,Lipstick,PID0046,95,5,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00056,Spring,Warm,Light,Eyeshadow,PID0289,97,1,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00057,Spring,Warm,Light,Eyeshadow,PID0130,96,2,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00058,Spring,Warm,Light,Eyeshadow,PID0069,95,3,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00059,Spring,Warm,Light,Eyeshadow,PID0290,87,4,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00060,Spring,Warm,Light,Eyeshadow,PID0288,62,5,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00061,Spring,Warm,Medium,Foundation,PID0004,99,1,warm undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00062,Spring,Warm,Medium,Foundation,PID0074,99,2,warm undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00063,Spring,Warm,Medium,Foundation,PID0075,99,3,warm undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00064,Spring,Warm,Medium,Foundation,PID0076,99,4,warm undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00065,Spring,Warm,Medium,Foundation,PID0077,99,5,warm undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00066,Spring,Warm,Medium,Cushion,PID0016,99,1,warm undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00067,Spring,Warm,Medium,Cushion,PID0017,99,2,warm undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00068,Spring,Warm,Medium,Cushion,PID0018,99,3,warm undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00069,Spring,Warm,Medium,Cushion,PID0028,99,4,warm undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00070,Spring,Warm,Medium,Cushion,PID0067,99,5,warm undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00071,Spring,Warm,Medium,Concealer,PID0032,99,1,warm undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00072,Spring,Warm,Medium,Concealer,PID0235,99,2,warm undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00073,Spring,Warm,Medium,Concealer,PID0260,99,3,warm undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00074,Spring,Warm,Medium,Concealer,PID0270,99,4,warm undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00075,Spring,Warm,Medium,Concealer,PID0262,96,5,warm undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00076,Spring,Warm,Medium,Blush,PID0038,95,1,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00077,Spring,Warm,Medium,Blush,PID0278,93,2,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00078,Spring,Warm,Medium,Blush,PID0284,93,3,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00079,Spring,Warm,Medium,Blush,PID0125,92,4,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00080,Spring,Warm,Medium,Blush,PID0126,92,5,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00081,Spring,Warm,Medium,Lipstick,PID0113,96,1,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00082,Spring,Warm,Medium,Lipstick,PID0119,96,2,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00083,Spring,Warm,Medium,Lipstick,PID0062,95,3,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00084,Spring,Warm,Medium,Lipstick,PID0156,95,4,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00085,Spring,Warm,Medium,Lipstick,PID0162,95,5,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00086,Spring,Warm,Medium,Eyeshadow,PID0290,97,1,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00087,Spring,Warm,Medium,Eyeshadow,PID0289,87,2,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00088,Spring,Warm,Medium,Eyeshadow,PID0130,86,3,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00089,Spring,Warm,Medium,Eyeshadow,PID0069,85,4,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00090,Spring,Warm,Medium,Eyeshadow,PID0196,71,5,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00091,Spring,Warm,Tan,Foundation,PID0006,99,1,warm undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00092,Spring,Warm,Tan,Foundation,PID0078,99,2,warm undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00093,Spring,Warm,Tan,Foundation,PID0079,99,3,warm undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00094,Spring,Warm,Tan,Foundation,PID0173,99,4,warm undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00095,Spring,Warm,Tan,Foundation,PID0176,99,5,warm undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00096,Spring,Warm,Tan,Cushion,PID0020,99,1,warm undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00097,Spring,Warm,Tan,Cushion,PID0098,99,2,warm undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00098,Spring,Warm,Tan,Cushion,PID0103,99,3,warm undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00099,Spring,Warm,Tan,Cushion,PID0139,99,4,warm undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00100,Spring,Warm,Tan,Cushion,PID0254,99,5,warm undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00101,Spring,Warm,Tan,Concealer,PID0262,99,1,warm undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00102,Spring,Warm,Tan,Concealer,PID0272,99,2,warm undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00103,Spring,Warm,Tan,Concealer,PID0260,96,3,warm undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00104,Spring,Warm,Tan,Concealer,PID0263,96,4,warm undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00105,Spring,Warm,Tan,Concealer,PID0264,96,5,warm undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00106,Spring,Warm,Tan,Blush,PID0038,91,1,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00107,Spring,Warm,Tan,Blush,PID0276,87,2,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00108,Spring,Warm,Tan,Blush,PID0278,87,3,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00109,Spring,Warm,Tan,Blush,PID0282,87,4,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00110,Spring,Warm,Tan,Blush,PID0284,87,5,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00111,Spring,Warm,Tan,Lipstick,PID0113,92,1,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00112,Spring,Warm,Tan,Lipstick,PID0119,92,2,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00113,Spring,Warm,Tan,Lipstick,PID0062,91,3,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00114,Spring,Warm,Tan,Lipstick,PID0156,91,4,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00115,Spring,Warm,Tan,Lipstick,PID0162,91,5,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00116,Spring,Warm,Tan,Eyeshadow,PID0290,93,1,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00117,Spring,Warm,Tan,Eyeshadow,PID0289,87,2,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00118,Spring,Warm,Tan,Eyeshadow,PID0130,86,3,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00119,Spring,Warm,Tan,Eyeshadow,PID0069,85,4,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00120,Spring,Warm,Tan,Eyeshadow,PID0196,67,5,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00121,Spring,Warm,Deep,Foundation,PID0080,99,1,warm undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00122,Spring,Warm,Deep,Foundation,PID0078,95,2,warm undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00123,Spring,Warm,Deep,Foundation,PID0079,95,3,warm undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00124,Spring,Warm,Deep,Foundation,PID0173,95,4,warm undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00125,Spring,Warm,Deep,Foundation,PID0176,95,5,warm undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00126,Spring,Warm,Deep,Cushion,PID0255,99,1,warm undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00127,Spring,Warm,Deep,Cushion,PID0254,96,2,warm undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00128,Spring,Warm,Deep,Cushion,PID0098,95,3,warm undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00129,Spring,Warm,Deep,Cushion,PID0103,95,4,warm undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00130,Spring,Warm,Deep,Cushion,PID0020,94,5,warm undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00131,Spring,Warm,Deep,Concealer,PID0263,99,1,warm undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00132,Spring,Warm,Deep,Concealer,PID0264,99,2,warm undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00133,Spring,Warm,Deep,Concealer,PID0273,99,3,warm undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00134,Spring,Warm,Deep,Concealer,PID0274,99,4,warm undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00135,Spring,Warm,Deep,Concealer,PID0262,96,5,warm undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00136,Spring,Warm,Deep,Blush,PID0276,87,1,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00137,Spring,Warm,Deep,Blush,PID0278,87,2,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00138,Spring,Warm,Deep,Blush,PID0282,87,3,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00139,Spring,Warm,Deep,Blush,PID0284,87,4,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00140,Spring,Warm,Deep,Blush,PID0122,86,5,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00141,Spring,Warm,Deep,Lipstick,PID0108,86,1,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00142,Spring,Warm,Deep,Lipstick,PID0110,86,2,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00143,Spring,Warm,Deep,Lipstick,PID0112,86,3,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00144,Spring,Warm,Deep,Lipstick,PID0113,86,4,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00145,Spring,Warm,Deep,Lipstick,PID0116,86,5,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00146,Spring,Warm,Deep,Eyeshadow,PID0289,87,1,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00147,Spring,Warm,Deep,Eyeshadow,PID0290,87,2,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00148,Spring,Warm,Deep,Eyeshadow,PID0130,86,3,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00149,Spring,Warm,Deep,Eyeshadow,PID0069,85,4,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00150,Spring,Warm,Deep,Eyeshadow,PID0196,61,5,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00151,Spring,Cool,Fair,Foundation,PID0081,97,1,cool undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00152,Spring,Cool,Fair,Foundation,PID0164,97,2,cool undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00153,Spring,Cool,Fair,Foundation,PID0197,97,3,cool undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00154,Spring,Cool,Fair,Foundation,PID0202,97,4,cool undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00155,Spring,Cool,Fair,Foundation,PID0212,97,5,cool undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00156,Spring,Cool,Fair,Cushion,PID0248,98,1,cool undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00157,Spring,Cool,Fair,Cushion,PID0249,98,2,cool undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00158,Spring,Cool,Fair,Cushion,PID0092,97,3,cool undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00159,Spring,Cool,Fair,Cushion,PID0104,97,4,cool undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00160,Spring,Cool,Fair,Cushion,PID0217,97,5,cool undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00161,Spring,Cool,Fair,Concealer,PID0256,98,1,cool undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00162,Spring,Cool,Fair,Concealer,PID0257,98,2,cool undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00163,Spring,Cool,Fair,Concealer,PID0266,98,3,cool undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00164,Spring,Cool,Fair,Concealer,PID0267,98,4,cool undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00165,Spring,Cool,Fair,Concealer,PID0230,97,5,cool undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00166,Spring,Cool,Fair,Blush,PID0276,83,1,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00167,Spring,Cool,Fair,Blush,PID0282,83,2,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00168,Spring,Cool,Fair,Blush,PID0122,82,3,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00169,Spring,Cool,Fair,Blush,PID0127,82,4,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00170,Spring,Cool,Fair,Blush,PID0132,82,5,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00171,Spring,Cool,Fair,Lipstick,PID0108,82,1,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00172,Spring,Cool,Fair,Lipstick,PID0110,82,2,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00173,Spring,Cool,Fair,Lipstick,PID0227,82,3,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00174,Spring,Cool,Fair,Lipstick,PID0041,81,4,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00175,Spring,Cool,Fair,Lipstick,PID0046,81,5,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00176,Spring,Cool,Fair,Eyeshadow,PID0289,83,1,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00177,Spring,Cool,Fair,Eyeshadow,PID0130,82,2,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00178,Spring,Cool,Fair,Eyeshadow,PID0069,81,3,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00179,Spring,Cool,Fair,Eyeshadow,PID0290,77,4,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00180,Spring,Cool,Fair,Eyeshadow,PID0288,68,5,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00181,Spring,Cool,Light,Foundation,PID0082,97,1,cool undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00182,Spring,Cool,Light,Foundation,PID0086,97,2,cool undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00183,Spring,Cool,Light,Foundation,PID0165,97,3,cool undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00184,Spring,Cool,Light,Foundation,PID0166,97,4,cool undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00185,Spring,Cool,Light,Foundation,PID0174,97,5,cool undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00186,Spring,Cool,Light,Cushion,PID0250,98,1,cool undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00187,Spring,Cool,Light,Cushion,PID0091,97,2,cool undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00188,Spring,Cool,Light,Cushion,PID0106,97,3,cool undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00189,Spring,Cool,Light,Cushion,PID0218,97,4,cool undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00190,Spring,Cool,Light,Cushion,PID0219,97,5,cool undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00191,Spring,Cool,Light,Concealer,PID0258,98,1,cool undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00192,Spring,Cool,Light,Concealer,PID0268,98,2,cool undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00193,Spring,Cool,Light,Concealer,PID0231,97,3,cool undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00194,Spring,Cool,Light,Concealer,PID0232,97,4,cool undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00195,Spring,Cool,Light,Concealer,PID0031,96,5,cool undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00196,Spring,Cool,Light,Blush,PID0276,87,1,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00197,Spring,Cool,Light,Blush,PID0282,87,2,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00198,Spring,Cool,Light,Blush,PID0122,86,3,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00199,Spring,Cool,Light,Blush,PID0127,86,4,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00200,Spring,Cool,Light,Blush,PID0132,86,5,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00201,Spring,Cool,Light,Lipstick,PID0108,86,1,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00202,Spring,Cool,Light,Lipstick,PID0110,86,2,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00203,Spring,Cool,Light,Lipstick,PID0227,86,3,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00204,Spring,Cool,Light,Lipstick,PID0041,85,4,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00205,Spring,Cool,Light,Lipstick,PID0046,85,5,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00206,Spring,Cool,Light,Eyeshadow,PID0289,87,1,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00207,Spring,Cool,Light,Eyeshadow,PID0130,86,2,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00208,Spring,Cool,Light,Eyeshadow,PID0069,85,3,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00209,Spring,Cool,Light,Eyeshadow,PID0290,77,4,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00210,Spring,Cool,Light,Eyeshadow,PID0288,72,5,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00211,Spring,Cool,Medium,Foundation,PID0084,93,1,cool undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00212,Spring,Cool,Medium,Foundation,PID0088,93,2,cool undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00213,Spring,Cool,Medium,Foundation,PID0170,93,3,cool undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00214,Spring,Cool,Medium,Foundation,PID0172,93,4,cool undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00215,Spring,Cool,Medium,Foundation,PID0200,93,5,cool undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00216,Spring,Cool,Medium,Cushion,PID0253,94,1,cool undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00217,Spring,Cool,Medium,Cushion,PID0220,93,2,cool undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00218,Spring,Cool,Medium,Cushion,PID0015,92,3,cool undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00219,Spring,Cool,Medium,Cushion,PID0019,92,4,cool undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00220,Spring,Cool,Medium,Cushion,PID0027,92,5,cool undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00221,Spring,Cool,Medium,Concealer,PID0261,94,1,cool undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00222,Spring,Cool,Medium,Concealer,PID0265,94,2,cool undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00223,Spring,Cool,Medium,Concealer,PID0271,94,3,cool undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00224,Spring,Cool,Medium,Concealer,PID0275,94,4,cool undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00225,Spring,Cool,Medium,Concealer,PID0234,93,5,cool undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00226,Spring,Cool,Medium,Blush,PID0038,85,1,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00227,Spring,Cool,Medium,Blush,PID0278,83,2,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00228,Spring,Cool,Medium,Blush,PID0284,83,3,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00229,Spring,Cool,Medium,Blush,PID0125,82,4,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00230,Spring,Cool,Medium,Blush,PID0126,82,5,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00231,Spring,Cool,Medium,Lipstick,PID0113,86,1,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00232,Spring,Cool,Medium,Lipstick,PID0119,86,2,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00233,Spring,Cool,Medium,Lipstick,PID0062,85,3,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00234,Spring,Cool,Medium,Lipstick,PID0156,85,4,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00235,Spring,Cool,Medium,Lipstick,PID0162,85,5,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00236,Spring,Cool,Medium,Eyeshadow,PID0290,87,1,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00237,Spring,Cool,Medium,Eyeshadow,PID0289,77,2,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00238,Spring,Cool,Medium,Eyeshadow,PID0130,76,3,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00239,Spring,Cool,Medium,Eyeshadow,PID0069,75,4,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00240,Spring,Cool,Medium,Eyeshadow,PID0196,71,5,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00241,Spring,Cool,Tan,Foundation,PID0085,93,1,cool undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00242,Spring,Cool,Tan,Foundation,PID0089,93,2,cool undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00243,Spring,Cool,Tan,Foundation,PID0201,93,3,cool undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00244,Spring,Cool,Tan,Foundation,PID0206,93,4,cool undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00245,Spring,Cool,Tan,Foundation,PID0078,89,5,cool undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00246,Spring,Cool,Tan,Cushion,PID0094,93,1,cool undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00247,Spring,Cool,Tan,Cushion,PID0105,93,2,cool undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00248,Spring,Cool,Tan,Cushion,PID0107,93,3,cool undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00249,Spring,Cool,Tan,Cushion,PID0221,93,4,cool undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00250,Spring,Cool,Tan,Cushion,PID0254,90,5,cool undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00251,Spring,Cool,Tan,Concealer,PID0236,93,1,cool undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00252,Spring,Cool,Tan,Concealer,PID0262,90,2,cool undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00253,Spring,Cool,Tan,Concealer,PID0272,90,3,cool undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00254,Spring,Cool,Tan,Concealer,PID0261,86,4,cool undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00255,Spring,Cool,Tan,Concealer,PID0265,86,5,cool undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00256,Spring,Cool,Tan,Blush,PID0038,81,1,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00257,Spring,Cool,Tan,Blush,PID0276,77,2,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00258,Spring,Cool,Tan,Blush,PID0278,77,3,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00259,Spring,Cool,Tan,Blush,PID0282,77,4,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00260,Spring,Cool,Tan,Blush,PID0284,77,5,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00261,Spring,Cool,Tan,Lipstick,PID0113,82,1,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00262,Spring,Cool,Tan,Lipstick,PID0119,82,2,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00263,Spring,Cool,Tan,Lipstick,PID0062,81,3,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00264,Spring,Cool,Tan,Lipstick,PID0156,81,4,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00265,Spring,Cool,Tan,Lipstick,PID0162,81,5,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00266,Spring,Cool,Tan,Eyeshadow,PID0290,83,1,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00267,Spring,Cool,Tan,Eyeshadow,PID0289,77,2,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00268,Spring,Cool,Tan,Eyeshadow,PID0130,76,3,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00269,Spring,Cool,Tan,Eyeshadow,PID0069,75,4,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00270,Spring,Cool,Tan,Eyeshadow,PID0196,67,5,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00271,Spring,Cool,Deep,Foundation,PID0090,93,1,cool undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00272,Spring,Cool,Deep,Foundation,PID0175,93,2,cool undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00273,Spring,Cool,Deep,Foundation,PID0177,93,3,cool undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00274,Spring,Cool,Deep,Foundation,PID0007,92,4,cool undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00275,Spring,Cool,Deep,Foundation,PID0080,89,5,cool undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00276,Spring,Cool,Deep,Cushion,PID0021,92,1,cool undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00277,Spring,Cool,Deep,Cushion,PID0255,90,2,cool undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00278,Spring,Cool,Deep,Cushion,PID0094,85,3,cool undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00279,Spring,Cool,Deep,Cushion,PID0105,85,4,cool undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00280,Spring,Cool,Deep,Cushion,PID0107,85,5,cool undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00281,Spring,Cool,Deep,Concealer,PID0263,90,1,cool undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00282,Spring,Cool,Deep,Concealer,PID0264,90,2,cool undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00283,Spring,Cool,Deep,Concealer,PID0273,90,3,cool undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00284,Spring,Cool,Deep,Concealer,PID0274,90,4,cool undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00285,Spring,Cool,Deep,Concealer,PID0236,85,5,cool undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00286,Spring,Cool,Deep,Blush,PID0276,77,1,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00287,Spring,Cool,Deep,Blush,PID0278,77,2,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00288,Spring,Cool,Deep,Blush,PID0282,77,3,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00289,Spring,Cool,Deep,Blush,PID0284,77,4,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00290,Spring,Cool,Deep,Blush,PID0122,76,5,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00291,Spring,Cool,Deep,Lipstick,PID0108,76,1,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00292,Spring,Cool,Deep,Lipstick,PID0110,76,2,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00293,Spring,Cool,Deep,Lipstick,PID0112,76,3,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00294,Spring,Cool,Deep,Lipstick,PID0113,76,4,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00295,Spring,Cool,Deep,Lipstick,PID0116,76,5,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00296,Spring,Cool,Deep,Eyeshadow,PID0289,77,1,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00297,Spring,Cool,Deep,Eyeshadow,PID0290,77,2,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00298,Spring,Cool,Deep,Eyeshadow,PID0130,76,3,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00299,Spring,Cool,Deep,Eyeshadow,PID0069,75,4,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00300,Spring,Cool,Deep,Eyeshadow,PID0288,62,5,"Spring palettes look best in warm, clear, and lively tones such as peach, coral, and soft gold."
+RID00301,Summer,Warm,Fair,Foundation,PID0081,99,1,warm undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00302,Summer,Warm,Fair,Foundation,PID0202,99,2,warm undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00303,Summer,Warm,Fair,Foundation,PID0214,99,3,warm undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00304,Summer,Warm,Fair,Foundation,PID0082,98,4,warm undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00305,Summer,Warm,Fair,Foundation,PID0166,98,5,warm undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00306,Summer,Warm,Fair,Cushion,PID0092,99,1,warm undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00307,Summer,Warm,Fair,Cushion,PID0104,99,2,warm undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00308,Summer,Warm,Fair,Cushion,PID0134,99,3,warm undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00309,Summer,Warm,Fair,Cushion,PID0217,99,4,warm undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00310,Summer,Warm,Fair,Cushion,PID0249,99,5,warm undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00311,Summer,Warm,Fair,Concealer,PID0230,99,1,warm undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00312,Summer,Warm,Fair,Concealer,PID0257,99,2,warm undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00313,Summer,Warm,Fair,Concealer,PID0258,99,3,warm undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00314,Summer,Warm,Fair,Concealer,PID0267,99,4,warm undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00315,Summer,Warm,Fair,Concealer,PID0268,99,5,warm undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00316,Summer,Warm,Fair,Blush,PID0277,83,1,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00317,Summer,Warm,Fair,Blush,PID0281,83,2,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00318,Summer,Warm,Fair,Blush,PID0283,83,3,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00319,Summer,Warm,Fair,Blush,PID0287,83,4,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00320,Summer,Warm,Fair,Blush,PID0120,82,5,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00321,Summer,Warm,Fair,Lipstick,PID0111,82,1,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00322,Summer,Warm,Fair,Lipstick,PID0225,82,2,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00323,Summer,Warm,Fair,Lipstick,PID0226,82,3,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00324,Summer,Warm,Fair,Lipstick,PID0042,81,4,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00325,Summer,Warm,Fair,Lipstick,PID0044,81,5,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00326,Summer,Warm,Fair,Eyeshadow,PID0288,83,1,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00327,Summer,Warm,Fair,Eyeshadow,PID0131,82,2,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00328,Summer,Warm,Fair,Eyeshadow,PID0070,81,3,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00329,Summer,Warm,Fair,Eyeshadow,PID0289,68,4,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00330,Summer,Warm,Fair,Eyeshadow,PID0130,67,5,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00331,Summer,Warm,Light,Foundation,PID0001,99,1,warm undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00332,Summer,Warm,Light,Foundation,PID0082,99,2,warm undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00333,Summer,Warm,Light,Foundation,PID0166,99,3,warm undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00334,Summer,Warm,Light,Foundation,PID0174,99,4,warm undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00335,Summer,Warm,Light,Foundation,PID0203,99,5,warm undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00336,Summer,Warm,Light,Cushion,PID0011,99,1,warm undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00337,Summer,Warm,Light,Cushion,PID0023,99,2,warm undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00338,Summer,Warm,Light,Cushion,PID0065,99,3,warm undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00339,Summer,Warm,Light,Cushion,PID0218,99,4,warm undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00340,Summer,Warm,Light,Cushion,PID0219,99,5,warm undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00341,Summer,Warm,Light,Concealer,PID0031,99,1,warm undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00342,Summer,Warm,Light,Concealer,PID0232,99,2,warm undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00343,Summer,Warm,Light,Concealer,PID0257,99,3,warm undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00344,Summer,Warm,Light,Concealer,PID0258,99,4,warm undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00345,Summer,Warm,Light,Concealer,PID0267,99,5,warm undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00346,Summer,Warm,Light,Blush,PID0277,87,1,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00347,Summer,Warm,Light,Blush,PID0281,87,2,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00348,Summer,Warm,Light,Blush,PID0283,87,3,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00349,Summer,Warm,Light,Blush,PID0287,87,4,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00350,Summer,Warm,Light,Blush,PID0120,86,5,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00351,Summer,Warm,Light,Lipstick,PID0111,86,1,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00352,Summer,Warm,Light,Lipstick,PID0225,86,2,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00353,Summer,Warm,Light,Lipstick,PID0226,86,3,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00354,Summer,Warm,Light,Lipstick,PID0042,85,4,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00355,Summer,Warm,Light,Lipstick,PID0044,85,5,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00356,Summer,Warm,Light,Eyeshadow,PID0288,87,1,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00357,Summer,Warm,Light,Eyeshadow,PID0131,86,2,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00358,Summer,Warm,Light,Eyeshadow,PID0070,85,3,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00359,Summer,Warm,Light,Eyeshadow,PID0289,72,4,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00360,Summer,Warm,Light,Eyeshadow,PID0130,71,5,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00361,Summer,Warm,Medium,Foundation,PID0005,99,1,warm undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00362,Summer,Warm,Medium,Foundation,PID0084,99,2,warm undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00363,Summer,Warm,Medium,Foundation,PID0170,99,3,warm undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00364,Summer,Warm,Medium,Foundation,PID0172,99,4,warm undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00365,Summer,Warm,Medium,Foundation,PID0205,99,5,warm undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00366,Summer,Warm,Medium,Cushion,PID0015,99,1,warm undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00367,Summer,Warm,Medium,Cushion,PID0019,99,2,warm undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00368,Summer,Warm,Medium,Cushion,PID0027,99,3,warm undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00369,Summer,Warm,Medium,Cushion,PID0029,99,4,warm undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00370,Summer,Warm,Medium,Cushion,PID0068,99,5,warm undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00371,Summer,Warm,Medium,Concealer,PID0234,99,1,warm undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00372,Summer,Warm,Medium,Concealer,PID0261,99,2,warm undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00373,Summer,Warm,Medium,Concealer,PID0265,99,3,warm undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00374,Summer,Warm,Medium,Concealer,PID0271,99,4,warm undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00375,Summer,Warm,Medium,Concealer,PID0275,99,5,warm undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00376,Summer,Warm,Medium,Blush,PID0279,87,1,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00377,Summer,Warm,Medium,Blush,PID0285,87,2,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00378,Summer,Warm,Medium,Blush,PID0181,86,3,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00379,Summer,Warm,Medium,Blush,PID0224,86,4,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00380,Summer,Warm,Medium,Blush,PID0037,85,5,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00381,Summer,Warm,Medium,Lipstick,PID0114,86,1,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00382,Summer,Warm,Medium,Lipstick,PID0117,86,2,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00383,Summer,Warm,Medium,Lipstick,PID0118,86,3,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00384,Summer,Warm,Medium,Lipstick,PID0228,86,4,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00385,Summer,Warm,Medium,Lipstick,PID0050,85,5,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00386,Summer,Warm,Medium,Eyeshadow,PID0288,77,1,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00387,Summer,Warm,Medium,Eyeshadow,PID0131,76,2,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00388,Summer,Warm,Medium,Eyeshadow,PID0070,75,3,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00389,Summer,Warm,Medium,Eyeshadow,PID0290,72,4,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00390,Summer,Warm,Medium,Eyeshadow,PID0196,69,5,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00391,Summer,Warm,Tan,Foundation,PID0085,99,1,warm undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00392,Summer,Warm,Tan,Foundation,PID0206,99,2,warm undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00393,Summer,Warm,Tan,Foundation,PID0084,95,3,warm undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00394,Summer,Warm,Tan,Foundation,PID0170,95,4,warm undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00395,Summer,Warm,Tan,Foundation,PID0172,95,5,warm undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00396,Summer,Warm,Tan,Cushion,PID0094,99,1,warm undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00397,Summer,Warm,Tan,Cushion,PID0105,99,2,warm undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00398,Summer,Warm,Tan,Cushion,PID0221,99,3,warm undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00399,Summer,Warm,Tan,Cushion,PID0253,96,4,warm undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00400,Summer,Warm,Tan,Cushion,PID0220,95,5,warm undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00401,Summer,Warm,Tan,Concealer,PID0236,99,1,warm undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00402,Summer,Warm,Tan,Concealer,PID0261,96,2,warm undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00403,Summer,Warm,Tan,Concealer,PID0265,96,3,warm undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00404,Summer,Warm,Tan,Concealer,PID0271,96,4,warm undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00405,Summer,Warm,Tan,Concealer,PID0275,96,5,warm undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00406,Summer,Warm,Tan,Blush,PID0279,83,1,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00407,Summer,Warm,Tan,Blush,PID0285,83,2,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00408,Summer,Warm,Tan,Blush,PID0181,82,3,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00409,Summer,Warm,Tan,Blush,PID0224,82,4,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00410,Summer,Warm,Tan,Blush,PID0037,81,5,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00411,Summer,Warm,Tan,Lipstick,PID0114,82,1,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00412,Summer,Warm,Tan,Lipstick,PID0117,82,2,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00413,Summer,Warm,Tan,Lipstick,PID0118,82,3,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00414,Summer,Warm,Tan,Lipstick,PID0228,82,4,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00415,Summer,Warm,Tan,Lipstick,PID0050,81,5,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00416,Summer,Warm,Tan,Eyeshadow,PID0288,77,1,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00417,Summer,Warm,Tan,Eyeshadow,PID0131,76,2,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00418,Summer,Warm,Tan,Eyeshadow,PID0070,75,3,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00419,Summer,Warm,Tan,Eyeshadow,PID0290,68,4,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00420,Summer,Warm,Tan,Eyeshadow,PID0196,65,5,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00421,Summer,Warm,Deep,Foundation,PID0007,99,1,warm undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00422,Summer,Warm,Deep,Foundation,PID0085,95,2,warm undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00423,Summer,Warm,Deep,Foundation,PID0206,95,3,warm undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00424,Summer,Warm,Deep,Foundation,PID0080,93,4,warm undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00425,Summer,Warm,Deep,Foundation,PID0084,89,5,warm undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00426,Summer,Warm,Deep,Cushion,PID0021,99,1,warm undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00427,Summer,Warm,Deep,Cushion,PID0094,95,2,warm undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00428,Summer,Warm,Deep,Cushion,PID0105,95,3,warm undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00429,Summer,Warm,Deep,Cushion,PID0221,95,4,warm undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00430,Summer,Warm,Deep,Cushion,PID0255,94,5,warm undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00431,Summer,Warm,Deep,Concealer,PID0236,95,1,warm undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00432,Summer,Warm,Deep,Concealer,PID0263,94,2,warm undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00433,Summer,Warm,Deep,Concealer,PID0264,94,3,warm undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00434,Summer,Warm,Deep,Concealer,PID0273,94,4,warm undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00435,Summer,Warm,Deep,Concealer,PID0274,94,5,warm undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00436,Summer,Warm,Deep,Blush,PID0277,77,1,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00437,Summer,Warm,Deep,Blush,PID0279,77,2,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00438,Summer,Warm,Deep,Blush,PID0281,77,3,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00439,Summer,Warm,Deep,Blush,PID0283,77,4,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00440,Summer,Warm,Deep,Blush,PID0285,77,5,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00441,Summer,Warm,Deep,Lipstick,PID0111,76,1,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00442,Summer,Warm,Deep,Lipstick,PID0114,76,2,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00443,Summer,Warm,Deep,Lipstick,PID0117,76,3,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00444,Summer,Warm,Deep,Lipstick,PID0118,76,4,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00445,Summer,Warm,Deep,Lipstick,PID0225,76,5,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00446,Summer,Warm,Deep,Eyeshadow,PID0288,77,1,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00447,Summer,Warm,Deep,Eyeshadow,PID0131,76,2,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00448,Summer,Warm,Deep,Eyeshadow,PID0070,75,3,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00449,Summer,Warm,Deep,Eyeshadow,PID0289,62,4,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00450,Summer,Warm,Deep,Eyeshadow,PID0290,62,5,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00451,Summer,Cool,Fair,Foundation,PID0081,99,1,cool undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00452,Summer,Cool,Fair,Foundation,PID0164,99,2,cool undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00453,Summer,Cool,Fair,Foundation,PID0197,99,3,cool undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00454,Summer,Cool,Fair,Foundation,PID0202,99,4,cool undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00455,Summer,Cool,Fair,Foundation,PID0212,99,5,cool undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00456,Summer,Cool,Fair,Cushion,PID0008,99,1,cool undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00457,Summer,Cool,Fair,Cushion,PID0092,99,2,cool undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00458,Summer,Cool,Fair,Cushion,PID0104,99,3,cool undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00459,Summer,Cool,Fair,Cushion,PID0133,99,4,cool undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00460,Summer,Cool,Fair,Cushion,PID0134,99,5,cool undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00461,Summer,Cool,Fair,Concealer,PID0030,99,1,cool undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00462,Summer,Cool,Fair,Concealer,PID0230,99,2,cool undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00463,Summer,Cool,Fair,Concealer,PID0256,99,3,cool undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00464,Summer,Cool,Fair,Concealer,PID0257,99,4,cool undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00465,Summer,Cool,Fair,Concealer,PID0258,99,5,cool undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00466,Summer,Cool,Fair,Blush,PID0277,93,1,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00467,Summer,Cool,Fair,Blush,PID0281,93,2,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00468,Summer,Cool,Fair,Blush,PID0283,93,3,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00469,Summer,Cool,Fair,Blush,PID0287,93,4,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00470,Summer,Cool,Fair,Blush,PID0120,92,5,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00471,Summer,Cool,Fair,Lipstick,PID0111,92,1,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00472,Summer,Cool,Fair,Lipstick,PID0225,92,2,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00473,Summer,Cool,Fair,Lipstick,PID0226,92,3,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00474,Summer,Cool,Fair,Lipstick,PID0042,91,4,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00475,Summer,Cool,Fair,Lipstick,PID0044,91,5,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00476,Summer,Cool,Fair,Eyeshadow,PID0288,93,1,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00477,Summer,Cool,Fair,Eyeshadow,PID0131,92,2,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00478,Summer,Cool,Fair,Eyeshadow,PID0070,91,3,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00479,Summer,Cool,Fair,Eyeshadow,PID0196,59,4,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00480,Summer,Cool,Fair,Eyeshadow,PID0071,58,5,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00481,Summer,Cool,Light,Foundation,PID0001,99,1,cool undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00482,Summer,Cool,Light,Foundation,PID0082,99,2,cool undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00483,Summer,Cool,Light,Foundation,PID0086,99,3,cool undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00484,Summer,Cool,Light,Foundation,PID0165,99,4,cool undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00485,Summer,Cool,Light,Foundation,PID0166,99,5,cool undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00486,Summer,Cool,Light,Cushion,PID0009,99,1,cool undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00487,Summer,Cool,Light,Cushion,PID0011,99,2,cool undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00488,Summer,Cool,Light,Cushion,PID0022,99,3,cool undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00489,Summer,Cool,Light,Cushion,PID0023,99,4,cool undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00490,Summer,Cool,Light,Cushion,PID0065,99,5,cool undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00491,Summer,Cool,Light,Concealer,PID0031,99,1,cool undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00492,Summer,Cool,Light,Concealer,PID0231,99,2,cool undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00493,Summer,Cool,Light,Concealer,PID0232,99,3,cool undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00494,Summer,Cool,Light,Concealer,PID0256,99,4,cool undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00495,Summer,Cool,Light,Concealer,PID0257,99,5,cool undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00496,Summer,Cool,Light,Blush,PID0277,97,1,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00497,Summer,Cool,Light,Blush,PID0281,97,2,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00498,Summer,Cool,Light,Blush,PID0283,97,3,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00499,Summer,Cool,Light,Blush,PID0287,97,4,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00500,Summer,Cool,Light,Blush,PID0120,96,5,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00501,Summer,Cool,Light,Lipstick,PID0111,96,1,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00502,Summer,Cool,Light,Lipstick,PID0225,96,2,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00503,Summer,Cool,Light,Lipstick,PID0226,96,3,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00504,Summer,Cool,Light,Lipstick,PID0042,95,4,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00505,Summer,Cool,Light,Lipstick,PID0044,95,5,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00506,Summer,Cool,Light,Eyeshadow,PID0288,97,1,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00507,Summer,Cool,Light,Eyeshadow,PID0131,96,2,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00508,Summer,Cool,Light,Eyeshadow,PID0070,95,3,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00509,Summer,Cool,Light,Eyeshadow,PID0289,62,4,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00510,Summer,Cool,Light,Eyeshadow,PID0130,61,5,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00511,Summer,Cool,Medium,Foundation,PID0005,99,1,cool undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00512,Summer,Cool,Medium,Foundation,PID0084,99,2,cool undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00513,Summer,Cool,Medium,Foundation,PID0088,99,3,cool undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00514,Summer,Cool,Medium,Foundation,PID0170,99,4,cool undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00515,Summer,Cool,Medium,Foundation,PID0172,99,5,cool undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00516,Summer,Cool,Medium,Cushion,PID0015,99,1,cool undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00517,Summer,Cool,Medium,Cushion,PID0019,99,2,cool undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00518,Summer,Cool,Medium,Cushion,PID0027,99,3,cool undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00519,Summer,Cool,Medium,Cushion,PID0029,99,4,cool undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00520,Summer,Cool,Medium,Cushion,PID0068,99,5,cool undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00521,Summer,Cool,Medium,Concealer,PID0234,99,1,cool undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00522,Summer,Cool,Medium,Concealer,PID0261,99,2,cool undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00523,Summer,Cool,Medium,Concealer,PID0265,99,3,cool undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00524,Summer,Cool,Medium,Concealer,PID0271,99,4,cool undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00525,Summer,Cool,Medium,Concealer,PID0275,99,5,cool undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00526,Summer,Cool,Medium,Blush,PID0279,97,1,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00527,Summer,Cool,Medium,Blush,PID0285,97,2,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00528,Summer,Cool,Medium,Blush,PID0181,96,3,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00529,Summer,Cool,Medium,Blush,PID0224,96,4,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00530,Summer,Cool,Medium,Blush,PID0037,95,5,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00531,Summer,Cool,Medium,Lipstick,PID0114,96,1,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00532,Summer,Cool,Medium,Lipstick,PID0117,96,2,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00533,Summer,Cool,Medium,Lipstick,PID0118,96,3,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00534,Summer,Cool,Medium,Lipstick,PID0228,96,4,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00535,Summer,Cool,Medium,Lipstick,PID0050,95,5,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00536,Summer,Cool,Medium,Eyeshadow,PID0288,87,1,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00537,Summer,Cool,Medium,Eyeshadow,PID0131,86,2,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00538,Summer,Cool,Medium,Eyeshadow,PID0070,85,3,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00539,Summer,Cool,Medium,Eyeshadow,PID0196,69,4,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00540,Summer,Cool,Medium,Eyeshadow,PID0071,68,5,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00541,Summer,Cool,Tan,Foundation,PID0085,99,1,cool undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00542,Summer,Cool,Tan,Foundation,PID0089,99,2,cool undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00543,Summer,Cool,Tan,Foundation,PID0201,99,3,cool undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00544,Summer,Cool,Tan,Foundation,PID0206,99,4,cool undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00545,Summer,Cool,Tan,Foundation,PID0084,95,5,cool undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00546,Summer,Cool,Tan,Cushion,PID0094,99,1,cool undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00547,Summer,Cool,Tan,Cushion,PID0105,99,2,cool undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00548,Summer,Cool,Tan,Cushion,PID0107,99,3,cool undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00549,Summer,Cool,Tan,Cushion,PID0221,99,4,cool undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00550,Summer,Cool,Tan,Cushion,PID0253,96,5,cool undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00551,Summer,Cool,Tan,Concealer,PID0236,99,1,cool undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00552,Summer,Cool,Tan,Concealer,PID0261,96,2,cool undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00553,Summer,Cool,Tan,Concealer,PID0265,96,3,cool undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00554,Summer,Cool,Tan,Concealer,PID0271,96,4,cool undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00555,Summer,Cool,Tan,Concealer,PID0275,96,5,cool undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00556,Summer,Cool,Tan,Blush,PID0279,93,1,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00557,Summer,Cool,Tan,Blush,PID0285,93,2,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00558,Summer,Cool,Tan,Blush,PID0181,92,3,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00559,Summer,Cool,Tan,Blush,PID0224,92,4,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00560,Summer,Cool,Tan,Blush,PID0037,91,5,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00561,Summer,Cool,Tan,Lipstick,PID0114,92,1,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00562,Summer,Cool,Tan,Lipstick,PID0117,92,2,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00563,Summer,Cool,Tan,Lipstick,PID0118,92,3,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00564,Summer,Cool,Tan,Lipstick,PID0228,92,4,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00565,Summer,Cool,Tan,Lipstick,PID0050,91,5,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00566,Summer,Cool,Tan,Eyeshadow,PID0288,87,1,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00567,Summer,Cool,Tan,Eyeshadow,PID0131,86,2,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00568,Summer,Cool,Tan,Eyeshadow,PID0070,85,3,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00569,Summer,Cool,Tan,Eyeshadow,PID0196,65,4,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00570,Summer,Cool,Tan,Eyeshadow,PID0071,64,5,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00571,Summer,Cool,Deep,Foundation,PID0007,99,1,cool undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00572,Summer,Cool,Deep,Foundation,PID0090,99,2,cool undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00573,Summer,Cool,Deep,Foundation,PID0175,99,3,cool undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00574,Summer,Cool,Deep,Foundation,PID0177,99,4,cool undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00575,Summer,Cool,Deep,Foundation,PID0085,95,5,cool undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00576,Summer,Cool,Deep,Cushion,PID0021,99,1,cool undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00577,Summer,Cool,Deep,Cushion,PID0094,95,2,cool undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00578,Summer,Cool,Deep,Cushion,PID0105,95,3,cool undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00579,Summer,Cool,Deep,Cushion,PID0107,95,4,cool undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00580,Summer,Cool,Deep,Cushion,PID0221,95,5,cool undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00581,Summer,Cool,Deep,Concealer,PID0236,95,1,cool undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00582,Summer,Cool,Deep,Concealer,PID0261,90,2,cool undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00583,Summer,Cool,Deep,Concealer,PID0265,90,3,cool undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00584,Summer,Cool,Deep,Concealer,PID0271,90,4,cool undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00585,Summer,Cool,Deep,Concealer,PID0275,90,5,cool undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00586,Summer,Cool,Deep,Blush,PID0277,87,1,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00587,Summer,Cool,Deep,Blush,PID0279,87,2,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00588,Summer,Cool,Deep,Blush,PID0281,87,3,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00589,Summer,Cool,Deep,Blush,PID0283,87,4,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00590,Summer,Cool,Deep,Blush,PID0285,87,5,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00591,Summer,Cool,Deep,Lipstick,PID0111,86,1,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00592,Summer,Cool,Deep,Lipstick,PID0114,86,2,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00593,Summer,Cool,Deep,Lipstick,PID0117,86,3,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00594,Summer,Cool,Deep,Lipstick,PID0118,86,4,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00595,Summer,Cool,Deep,Lipstick,PID0225,86,5,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00596,Summer,Cool,Deep,Eyeshadow,PID0288,87,1,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00597,Summer,Cool,Deep,Eyeshadow,PID0131,86,2,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00598,Summer,Cool,Deep,Eyeshadow,PID0070,85,3,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00599,Summer,Cool,Deep,Eyeshadow,PID0196,59,4,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00600,Summer,Cool,Deep,Eyeshadow,PID0071,58,5,"Summer palettes are flattered by soft cool shades like rose, mauve, and gentle berry."
+RID00601,Autumn,Warm,Fair,Foundation,PID0207,99,1,warm undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00602,Autumn,Warm,Fair,Foundation,PID0072,95,2,warm undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00603,Autumn,Warm,Fair,Foundation,PID0073,95,3,warm undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00604,Autumn,Warm,Fair,Foundation,PID0167,95,4,warm undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00605,Autumn,Warm,Fair,Foundation,PID0208,95,5,warm undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00606,Autumn,Warm,Fair,Cushion,PID0251,96,1,warm undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00607,Autumn,Warm,Fair,Cushion,PID0095,95,2,warm undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00608,Autumn,Warm,Fair,Cushion,PID0099,95,3,warm undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00609,Autumn,Warm,Fair,Cushion,PID0010,94,4,warm undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00610,Autumn,Warm,Fair,Cushion,PID0012,94,5,warm undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00611,Autumn,Warm,Fair,Concealer,PID0259,96,1,warm undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00612,Autumn,Warm,Fair,Concealer,PID0269,96,2,warm undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00613,Autumn,Warm,Fair,Concealer,PID0233,95,3,warm undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00614,Autumn,Warm,Fair,Concealer,PID0257,94,4,warm undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00615,Autumn,Warm,Fair,Concealer,PID0267,94,5,warm undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00616,Autumn,Warm,Fair,Blush,PID0276,93,1,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00617,Autumn,Warm,Fair,Blush,PID0282,93,2,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00618,Autumn,Warm,Fair,Blush,PID0122,92,3,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00619,Autumn,Warm,Fair,Blush,PID0127,92,4,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00620,Autumn,Warm,Fair,Blush,PID0132,92,5,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00621,Autumn,Warm,Fair,Lipstick,PID0108,92,1,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00622,Autumn,Warm,Fair,Lipstick,PID0110,92,2,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00623,Autumn,Warm,Fair,Lipstick,PID0227,92,3,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00624,Autumn,Warm,Fair,Lipstick,PID0041,91,4,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00625,Autumn,Warm,Fair,Lipstick,PID0046,91,5,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00626,Autumn,Warm,Fair,Eyeshadow,PID0289,93,1,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00627,Autumn,Warm,Fair,Eyeshadow,PID0130,92,2,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00628,Autumn,Warm,Fair,Eyeshadow,PID0069,91,3,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00629,Autumn,Warm,Fair,Eyeshadow,PID0290,87,4,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00630,Autumn,Warm,Fair,Eyeshadow,PID0071,75,5,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00631,Autumn,Warm,Light,Foundation,PID0002,99,1,warm undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00632,Autumn,Warm,Light,Foundation,PID0072,99,2,warm undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00633,Autumn,Warm,Light,Foundation,PID0073,99,3,warm undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00634,Autumn,Warm,Light,Foundation,PID0167,99,4,warm undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00635,Autumn,Warm,Light,Foundation,PID0208,99,5,warm undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00636,Autumn,Warm,Light,Cushion,PID0010,99,1,warm undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00637,Autumn,Warm,Light,Cushion,PID0012,99,2,warm undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00638,Autumn,Warm,Light,Cushion,PID0024,99,3,warm undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00639,Autumn,Warm,Light,Cushion,PID0025,99,4,warm undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00640,Autumn,Warm,Light,Cushion,PID0095,99,5,warm undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00641,Autumn,Warm,Light,Concealer,PID0233,99,1,warm undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00642,Autumn,Warm,Light,Concealer,PID0259,99,2,warm undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00643,Autumn,Warm,Light,Concealer,PID0269,99,3,warm undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00644,Autumn,Warm,Light,Concealer,PID0258,94,4,warm undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00645,Autumn,Warm,Light,Concealer,PID0260,94,5,warm undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00646,Autumn,Warm,Light,Blush,PID0276,97,1,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00647,Autumn,Warm,Light,Blush,PID0282,97,2,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00648,Autumn,Warm,Light,Blush,PID0122,96,3,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00649,Autumn,Warm,Light,Blush,PID0127,96,4,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00650,Autumn,Warm,Light,Blush,PID0132,96,5,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00651,Autumn,Warm,Light,Lipstick,PID0108,96,1,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00652,Autumn,Warm,Light,Lipstick,PID0110,96,2,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00653,Autumn,Warm,Light,Lipstick,PID0227,96,3,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00654,Autumn,Warm,Light,Lipstick,PID0041,95,4,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00655,Autumn,Warm,Light,Lipstick,PID0046,95,5,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00656,Autumn,Warm,Light,Eyeshadow,PID0289,97,1,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00657,Autumn,Warm,Light,Eyeshadow,PID0130,96,2,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00658,Autumn,Warm,Light,Eyeshadow,PID0069,95,3,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00659,Autumn,Warm,Light,Eyeshadow,PID0290,87,4,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00660,Autumn,Warm,Light,Eyeshadow,PID0071,75,5,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00661,Autumn,Warm,Medium,Foundation,PID0004,99,1,warm undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00662,Autumn,Warm,Medium,Foundation,PID0075,99,2,warm undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00663,Autumn,Warm,Medium,Foundation,PID0076,99,3,warm undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00664,Autumn,Warm,Medium,Foundation,PID0077,99,4,warm undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00665,Autumn,Warm,Medium,Foundation,PID0078,99,5,warm undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00666,Autumn,Warm,Medium,Cushion,PID0016,99,1,warm undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00667,Autumn,Warm,Medium,Cushion,PID0017,99,2,warm undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00668,Autumn,Warm,Medium,Cushion,PID0018,99,3,warm undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00669,Autumn,Warm,Medium,Cushion,PID0028,99,4,warm undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00670,Autumn,Warm,Medium,Cushion,PID0067,99,5,warm undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00671,Autumn,Warm,Medium,Concealer,PID0032,99,1,warm undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00672,Autumn,Warm,Medium,Concealer,PID0235,99,2,warm undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00673,Autumn,Warm,Medium,Concealer,PID0260,99,3,warm undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00674,Autumn,Warm,Medium,Concealer,PID0262,99,4,warm undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00675,Autumn,Warm,Medium,Concealer,PID0270,99,5,warm undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00676,Autumn,Warm,Medium,Blush,PID0038,95,1,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00677,Autumn,Warm,Medium,Blush,PID0278,93,2,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00678,Autumn,Warm,Medium,Blush,PID0284,93,3,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00679,Autumn,Warm,Medium,Blush,PID0125,92,4,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00680,Autumn,Warm,Medium,Blush,PID0126,92,5,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00681,Autumn,Warm,Medium,Lipstick,PID0113,96,1,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00682,Autumn,Warm,Medium,Lipstick,PID0119,96,2,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00683,Autumn,Warm,Medium,Lipstick,PID0062,95,3,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00684,Autumn,Warm,Medium,Lipstick,PID0156,95,4,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00685,Autumn,Warm,Medium,Lipstick,PID0162,95,5,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00686,Autumn,Warm,Medium,Eyeshadow,PID0290,97,1,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00687,Autumn,Warm,Medium,Eyeshadow,PID0289,87,2,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00688,Autumn,Warm,Medium,Eyeshadow,PID0130,86,3,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00689,Autumn,Warm,Medium,Eyeshadow,PID0069,85,4,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00690,Autumn,Warm,Medium,Eyeshadow,PID0071,85,5,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00691,Autumn,Warm,Tan,Foundation,PID0006,99,1,warm undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00692,Autumn,Warm,Tan,Foundation,PID0075,99,2,warm undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00693,Autumn,Warm,Tan,Foundation,PID0076,99,3,warm undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00694,Autumn,Warm,Tan,Foundation,PID0077,99,4,warm undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00695,Autumn,Warm,Tan,Foundation,PID0078,99,5,warm undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00696,Autumn,Warm,Tan,Cushion,PID0020,99,1,warm undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00697,Autumn,Warm,Tan,Cushion,PID0096,99,2,warm undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00698,Autumn,Warm,Tan,Cushion,PID0097,99,3,warm undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00699,Autumn,Warm,Tan,Cushion,PID0098,99,4,warm undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00700,Autumn,Warm,Tan,Cushion,PID0101,99,5,warm undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00701,Autumn,Warm,Tan,Concealer,PID0235,99,1,warm undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00702,Autumn,Warm,Tan,Concealer,PID0260,99,2,warm undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00703,Autumn,Warm,Tan,Concealer,PID0262,99,3,warm undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00704,Autumn,Warm,Tan,Concealer,PID0263,99,4,warm undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00705,Autumn,Warm,Tan,Concealer,PID0264,99,5,warm undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00706,Autumn,Warm,Tan,Blush,PID0038,91,1,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00707,Autumn,Warm,Tan,Blush,PID0276,87,2,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00708,Autumn,Warm,Tan,Blush,PID0278,87,3,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00709,Autumn,Warm,Tan,Blush,PID0282,87,4,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00710,Autumn,Warm,Tan,Blush,PID0284,87,5,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00711,Autumn,Warm,Tan,Lipstick,PID0113,92,1,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00712,Autumn,Warm,Tan,Lipstick,PID0119,92,2,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00713,Autumn,Warm,Tan,Lipstick,PID0062,91,3,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00714,Autumn,Warm,Tan,Lipstick,PID0156,91,4,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00715,Autumn,Warm,Tan,Lipstick,PID0162,91,5,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00716,Autumn,Warm,Tan,Eyeshadow,PID0290,93,1,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00717,Autumn,Warm,Tan,Eyeshadow,PID0289,87,2,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00718,Autumn,Warm,Tan,Eyeshadow,PID0130,86,3,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00719,Autumn,Warm,Tan,Eyeshadow,PID0069,85,4,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00720,Autumn,Warm,Tan,Eyeshadow,PID0071,81,5,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00721,Autumn,Warm,Deep,Foundation,PID0078,99,1,warm undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00722,Autumn,Warm,Deep,Foundation,PID0079,99,2,warm undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00723,Autumn,Warm,Deep,Foundation,PID0080,99,3,warm undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00724,Autumn,Warm,Deep,Foundation,PID0173,99,4,warm undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00725,Autumn,Warm,Deep,Foundation,PID0176,99,5,warm undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00726,Autumn,Warm,Deep,Cushion,PID0098,99,1,warm undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00727,Autumn,Warm,Deep,Cushion,PID0103,99,2,warm undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00728,Autumn,Warm,Deep,Cushion,PID0254,99,3,warm undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00729,Autumn,Warm,Deep,Cushion,PID0255,99,4,warm undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00730,Autumn,Warm,Deep,Cushion,PID0020,98,5,warm undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00731,Autumn,Warm,Deep,Concealer,PID0262,99,1,warm undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00732,Autumn,Warm,Deep,Concealer,PID0263,99,2,warm undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00733,Autumn,Warm,Deep,Concealer,PID0264,99,3,warm undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00734,Autumn,Warm,Deep,Concealer,PID0272,99,4,warm undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00735,Autumn,Warm,Deep,Concealer,PID0273,99,5,warm undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00736,Autumn,Warm,Deep,Blush,PID0276,87,1,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00737,Autumn,Warm,Deep,Blush,PID0278,87,2,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00738,Autumn,Warm,Deep,Blush,PID0282,87,3,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00739,Autumn,Warm,Deep,Blush,PID0284,87,4,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00740,Autumn,Warm,Deep,Blush,PID0122,86,5,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00741,Autumn,Warm,Deep,Lipstick,PID0108,86,1,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00742,Autumn,Warm,Deep,Lipstick,PID0110,86,2,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00743,Autumn,Warm,Deep,Lipstick,PID0112,86,3,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00744,Autumn,Warm,Deep,Lipstick,PID0113,86,4,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00745,Autumn,Warm,Deep,Lipstick,PID0116,86,5,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00746,Autumn,Warm,Deep,Eyeshadow,PID0289,87,1,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00747,Autumn,Warm,Deep,Eyeshadow,PID0290,87,2,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00748,Autumn,Warm,Deep,Eyeshadow,PID0130,86,3,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00749,Autumn,Warm,Deep,Eyeshadow,PID0069,85,4,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00750,Autumn,Warm,Deep,Eyeshadow,PID0071,75,5,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00751,Autumn,Cool,Fair,Foundation,PID0081,93,1,cool undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00752,Autumn,Cool,Fair,Foundation,PID0164,93,2,cool undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00753,Autumn,Cool,Fair,Foundation,PID0197,93,3,cool undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00754,Autumn,Cool,Fair,Foundation,PID0202,93,4,cool undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00755,Autumn,Cool,Fair,Foundation,PID0212,93,5,cool undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00756,Autumn,Cool,Fair,Cushion,PID0248,94,1,cool undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00757,Autumn,Cool,Fair,Cushion,PID0249,94,2,cool undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00758,Autumn,Cool,Fair,Cushion,PID0092,93,3,cool undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00759,Autumn,Cool,Fair,Cushion,PID0104,93,4,cool undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00760,Autumn,Cool,Fair,Cushion,PID0217,93,5,cool undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00761,Autumn,Cool,Fair,Concealer,PID0256,94,1,cool undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00762,Autumn,Cool,Fair,Concealer,PID0257,94,2,cool undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00763,Autumn,Cool,Fair,Concealer,PID0266,94,3,cool undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00764,Autumn,Cool,Fair,Concealer,PID0267,94,4,cool undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00765,Autumn,Cool,Fair,Concealer,PID0230,93,5,cool undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00766,Autumn,Cool,Fair,Blush,PID0276,83,1,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00767,Autumn,Cool,Fair,Blush,PID0282,83,2,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00768,Autumn,Cool,Fair,Blush,PID0122,82,3,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00769,Autumn,Cool,Fair,Blush,PID0127,82,4,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00770,Autumn,Cool,Fair,Blush,PID0132,82,5,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00771,Autumn,Cool,Fair,Lipstick,PID0108,82,1,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00772,Autumn,Cool,Fair,Lipstick,PID0110,82,2,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00773,Autumn,Cool,Fair,Lipstick,PID0227,82,3,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00774,Autumn,Cool,Fair,Lipstick,PID0041,81,4,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00775,Autumn,Cool,Fair,Lipstick,PID0046,81,5,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00776,Autumn,Cool,Fair,Eyeshadow,PID0289,83,1,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00777,Autumn,Cool,Fair,Eyeshadow,PID0130,82,2,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00778,Autumn,Cool,Fair,Eyeshadow,PID0069,81,3,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00779,Autumn,Cool,Fair,Eyeshadow,PID0290,77,4,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00780,Autumn,Cool,Fair,Eyeshadow,PID0288,76,5,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00781,Autumn,Cool,Light,Foundation,PID0082,93,1,cool undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00782,Autumn,Cool,Light,Foundation,PID0086,93,2,cool undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00783,Autumn,Cool,Light,Foundation,PID0165,93,3,cool undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00784,Autumn,Cool,Light,Foundation,PID0166,93,4,cool undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00785,Autumn,Cool,Light,Foundation,PID0174,93,5,cool undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00786,Autumn,Cool,Light,Cushion,PID0250,94,1,cool undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00787,Autumn,Cool,Light,Cushion,PID0091,93,2,cool undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00788,Autumn,Cool,Light,Cushion,PID0106,93,3,cool undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00789,Autumn,Cool,Light,Cushion,PID0218,93,4,cool undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00790,Autumn,Cool,Light,Cushion,PID0219,93,5,cool undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00791,Autumn,Cool,Light,Concealer,PID0258,94,1,cool undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00792,Autumn,Cool,Light,Concealer,PID0268,94,2,cool undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00793,Autumn,Cool,Light,Concealer,PID0231,93,3,cool undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00794,Autumn,Cool,Light,Concealer,PID0232,93,4,cool undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00795,Autumn,Cool,Light,Concealer,PID0031,92,5,cool undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00796,Autumn,Cool,Light,Blush,PID0276,87,1,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00797,Autumn,Cool,Light,Blush,PID0282,87,2,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00798,Autumn,Cool,Light,Blush,PID0122,86,3,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00799,Autumn,Cool,Light,Blush,PID0127,86,4,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00800,Autumn,Cool,Light,Blush,PID0132,86,5,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00801,Autumn,Cool,Light,Lipstick,PID0108,86,1,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00802,Autumn,Cool,Light,Lipstick,PID0110,86,2,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00803,Autumn,Cool,Light,Lipstick,PID0227,86,3,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00804,Autumn,Cool,Light,Lipstick,PID0041,85,4,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00805,Autumn,Cool,Light,Lipstick,PID0046,85,5,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00806,Autumn,Cool,Light,Eyeshadow,PID0289,87,1,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00807,Autumn,Cool,Light,Eyeshadow,PID0130,86,2,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00808,Autumn,Cool,Light,Eyeshadow,PID0069,85,3,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00809,Autumn,Cool,Light,Eyeshadow,PID0288,80,4,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00810,Autumn,Cool,Light,Eyeshadow,PID0131,79,5,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00811,Autumn,Cool,Medium,Foundation,PID0084,97,1,cool undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00812,Autumn,Cool,Medium,Foundation,PID0088,97,2,cool undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00813,Autumn,Cool,Medium,Foundation,PID0170,97,3,cool undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00814,Autumn,Cool,Medium,Foundation,PID0172,97,4,cool undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00815,Autumn,Cool,Medium,Foundation,PID0200,97,5,cool undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00816,Autumn,Cool,Medium,Cushion,PID0253,98,1,cool undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00817,Autumn,Cool,Medium,Cushion,PID0220,97,2,cool undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00818,Autumn,Cool,Medium,Cushion,PID0015,96,3,cool undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00819,Autumn,Cool,Medium,Cushion,PID0019,96,4,cool undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00820,Autumn,Cool,Medium,Cushion,PID0027,96,5,cool undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00821,Autumn,Cool,Medium,Concealer,PID0261,98,1,cool undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00822,Autumn,Cool,Medium,Concealer,PID0265,98,2,cool undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00823,Autumn,Cool,Medium,Concealer,PID0271,98,3,cool undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00824,Autumn,Cool,Medium,Concealer,PID0275,98,4,cool undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00825,Autumn,Cool,Medium,Concealer,PID0234,97,5,cool undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00826,Autumn,Cool,Medium,Blush,PID0038,85,1,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00827,Autumn,Cool,Medium,Blush,PID0278,83,2,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00828,Autumn,Cool,Medium,Blush,PID0284,83,3,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00829,Autumn,Cool,Medium,Blush,PID0125,82,4,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00830,Autumn,Cool,Medium,Blush,PID0126,82,5,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00831,Autumn,Cool,Medium,Lipstick,PID0113,86,1,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00832,Autumn,Cool,Medium,Lipstick,PID0119,86,2,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00833,Autumn,Cool,Medium,Lipstick,PID0062,85,3,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00834,Autumn,Cool,Medium,Lipstick,PID0156,85,4,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00835,Autumn,Cool,Medium,Lipstick,PID0162,85,5,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00836,Autumn,Cool,Medium,Eyeshadow,PID0290,87,1,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00837,Autumn,Cool,Medium,Eyeshadow,PID0071,85,2,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00838,Autumn,Cool,Medium,Eyeshadow,PID0289,77,3,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00839,Autumn,Cool,Medium,Eyeshadow,PID0130,76,4,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00840,Autumn,Cool,Medium,Eyeshadow,PID0069,75,5,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00841,Autumn,Cool,Tan,Foundation,PID0085,97,1,cool undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00842,Autumn,Cool,Tan,Foundation,PID0089,97,2,cool undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00843,Autumn,Cool,Tan,Foundation,PID0201,97,3,cool undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00844,Autumn,Cool,Tan,Foundation,PID0206,97,4,cool undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00845,Autumn,Cool,Tan,Foundation,PID0078,93,5,cool undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00846,Autumn,Cool,Tan,Cushion,PID0094,97,1,cool undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00847,Autumn,Cool,Tan,Cushion,PID0105,97,2,cool undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00848,Autumn,Cool,Tan,Cushion,PID0107,97,3,cool undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00849,Autumn,Cool,Tan,Cushion,PID0221,97,4,cool undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00850,Autumn,Cool,Tan,Cushion,PID0254,94,5,cool undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00851,Autumn,Cool,Tan,Concealer,PID0236,97,1,cool undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00852,Autumn,Cool,Tan,Concealer,PID0262,94,2,cool undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00853,Autumn,Cool,Tan,Concealer,PID0272,94,3,cool undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00854,Autumn,Cool,Tan,Concealer,PID0261,90,4,cool undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00855,Autumn,Cool,Tan,Concealer,PID0265,90,5,cool undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00856,Autumn,Cool,Tan,Blush,PID0038,81,1,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00857,Autumn,Cool,Tan,Blush,PID0276,77,2,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00858,Autumn,Cool,Tan,Blush,PID0278,77,3,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00859,Autumn,Cool,Tan,Blush,PID0282,77,4,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00860,Autumn,Cool,Tan,Blush,PID0284,77,5,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00861,Autumn,Cool,Tan,Lipstick,PID0113,82,1,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00862,Autumn,Cool,Tan,Lipstick,PID0119,82,2,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00863,Autumn,Cool,Tan,Lipstick,PID0062,81,3,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00864,Autumn,Cool,Tan,Lipstick,PID0156,81,4,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00865,Autumn,Cool,Tan,Lipstick,PID0162,81,5,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00866,Autumn,Cool,Tan,Eyeshadow,PID0290,83,1,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00867,Autumn,Cool,Tan,Eyeshadow,PID0071,81,2,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00868,Autumn,Cool,Tan,Eyeshadow,PID0289,77,3,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00869,Autumn,Cool,Tan,Eyeshadow,PID0130,76,4,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00870,Autumn,Cool,Tan,Eyeshadow,PID0069,75,5,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00871,Autumn,Cool,Deep,Foundation,PID0090,97,1,cool undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00872,Autumn,Cool,Deep,Foundation,PID0175,97,2,cool undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00873,Autumn,Cool,Deep,Foundation,PID0177,97,3,cool undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00874,Autumn,Cool,Deep,Foundation,PID0007,96,4,cool undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00875,Autumn,Cool,Deep,Foundation,PID0080,93,5,cool undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00876,Autumn,Cool,Deep,Cushion,PID0021,96,1,cool undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00877,Autumn,Cool,Deep,Cushion,PID0255,94,2,cool undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00878,Autumn,Cool,Deep,Cushion,PID0094,89,3,cool undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00879,Autumn,Cool,Deep,Cushion,PID0105,89,4,cool undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00880,Autumn,Cool,Deep,Cushion,PID0107,89,5,cool undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00881,Autumn,Cool,Deep,Concealer,PID0263,94,1,cool undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00882,Autumn,Cool,Deep,Concealer,PID0264,94,2,cool undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00883,Autumn,Cool,Deep,Concealer,PID0273,94,3,cool undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00884,Autumn,Cool,Deep,Concealer,PID0274,94,4,cool undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00885,Autumn,Cool,Deep,Concealer,PID0236,89,5,cool undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID00886,Autumn,Cool,Deep,Blush,PID0276,77,1,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00887,Autumn,Cool,Deep,Blush,PID0278,77,2,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00888,Autumn,Cool,Deep,Blush,PID0282,77,3,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00889,Autumn,Cool,Deep,Blush,PID0284,77,4,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00890,Autumn,Cool,Deep,Blush,PID0122,76,5,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00891,Autumn,Cool,Deep,Lipstick,PID0108,76,1,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00892,Autumn,Cool,Deep,Lipstick,PID0110,76,2,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00893,Autumn,Cool,Deep,Lipstick,PID0112,76,3,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00894,Autumn,Cool,Deep,Lipstick,PID0113,76,4,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00895,Autumn,Cool,Deep,Lipstick,PID0116,76,5,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00896,Autumn,Cool,Deep,Eyeshadow,PID0289,77,1,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00897,Autumn,Cool,Deep,Eyeshadow,PID0290,77,2,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00898,Autumn,Cool,Deep,Eyeshadow,PID0130,76,3,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00899,Autumn,Cool,Deep,Eyeshadow,PID0069,75,4,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00900,Autumn,Cool,Deep,Eyeshadow,PID0071,75,5,"Autumn palettes benefit from earthy warmth such as terracotta, bronze, and cinnamon."
+RID00901,Winter,Warm,Fair,Foundation,PID0081,99,1,warm undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00902,Winter,Warm,Fair,Foundation,PID0202,99,2,warm undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00903,Winter,Warm,Fair,Foundation,PID0214,99,3,warm undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00904,Winter,Warm,Fair,Foundation,PID0082,95,4,warm undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00905,Winter,Warm,Fair,Foundation,PID0166,95,5,warm undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00906,Winter,Warm,Fair,Cushion,PID0092,99,1,warm undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00907,Winter,Warm,Fair,Cushion,PID0104,99,2,warm undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00908,Winter,Warm,Fair,Cushion,PID0134,99,3,warm undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00909,Winter,Warm,Fair,Cushion,PID0217,99,4,warm undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00910,Winter,Warm,Fair,Cushion,PID0249,99,5,warm undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00911,Winter,Warm,Fair,Concealer,PID0230,99,1,warm undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00912,Winter,Warm,Fair,Concealer,PID0257,99,2,warm undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00913,Winter,Warm,Fair,Concealer,PID0267,99,3,warm undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00914,Winter,Warm,Fair,Concealer,PID0258,96,4,warm undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00915,Winter,Warm,Fair,Concealer,PID0268,96,5,warm undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID00916,Winter,Warm,Fair,Blush,PID0126,86,1,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID00917,Winter,Warm,Fair,Blush,PID0277,83,2,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID00918,Winter,Warm,Fair,Blush,PID0281,83,3,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID00919,Winter,Warm,Fair,Blush,PID0283,83,4,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID00920,Winter,Warm,Fair,Blush,PID0287,83,5,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID00921,Winter,Warm,Fair,Lipstick,PID0108,92,1,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID00922,Winter,Warm,Fair,Lipstick,PID0041,91,2,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID00923,Winter,Warm,Fair,Lipstick,PID0046,91,3,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID00924,Winter,Warm,Fair,Lipstick,PID0112,86,4,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID00925,Winter,Warm,Fair,Lipstick,PID0062,85,5,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID00926,Winter,Warm,Fair,Eyeshadow,PID0288,83,1,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID00927,Winter,Warm,Fair,Eyeshadow,PID0131,82,2,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID00928,Winter,Warm,Fair,Eyeshadow,PID0070,81,3,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID00929,Winter,Warm,Fair,Eyeshadow,PID0289,68,4,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID00930,Winter,Warm,Fair,Eyeshadow,PID0130,67,5,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID00931,Winter,Warm,Light,Foundation,PID0001,99,1,warm undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00932,Winter,Warm,Light,Foundation,PID0082,99,2,warm undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00933,Winter,Warm,Light,Foundation,PID0166,99,3,warm undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00934,Winter,Warm,Light,Foundation,PID0174,99,4,warm undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00935,Winter,Warm,Light,Foundation,PID0203,99,5,warm undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00936,Winter,Warm,Light,Cushion,PID0011,99,1,warm undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00937,Winter,Warm,Light,Cushion,PID0023,99,2,warm undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00938,Winter,Warm,Light,Cushion,PID0065,99,3,warm undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00939,Winter,Warm,Light,Cushion,PID0218,99,4,warm undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00940,Winter,Warm,Light,Cushion,PID0219,99,5,warm undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00941,Winter,Warm,Light,Concealer,PID0031,99,1,warm undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00942,Winter,Warm,Light,Concealer,PID0232,99,2,warm undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00943,Winter,Warm,Light,Concealer,PID0258,99,3,warm undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00944,Winter,Warm,Light,Concealer,PID0268,99,4,warm undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00945,Winter,Warm,Light,Concealer,PID0257,96,5,warm undertone and light skin tone align with the shade depth and undertone in this base product.
+RID00946,Winter,Warm,Light,Blush,PID0126,92,1,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID00947,Winter,Warm,Light,Blush,PID0277,87,2,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID00948,Winter,Warm,Light,Blush,PID0281,87,3,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID00949,Winter,Warm,Light,Blush,PID0283,87,4,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID00950,Winter,Warm,Light,Blush,PID0287,87,5,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID00951,Winter,Warm,Light,Lipstick,PID0108,96,1,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID00952,Winter,Warm,Light,Lipstick,PID0041,95,2,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID00953,Winter,Warm,Light,Lipstick,PID0046,95,3,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID00954,Winter,Warm,Light,Lipstick,PID0112,92,4,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID00955,Winter,Warm,Light,Lipstick,PID0161,91,5,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID00956,Winter,Warm,Light,Eyeshadow,PID0288,87,1,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID00957,Winter,Warm,Light,Eyeshadow,PID0131,86,2,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID00958,Winter,Warm,Light,Eyeshadow,PID0070,85,3,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID00959,Winter,Warm,Light,Eyeshadow,PID0289,72,4,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID00960,Winter,Warm,Light,Eyeshadow,PID0130,71,5,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID00961,Winter,Warm,Medium,Foundation,PID0005,99,1,warm undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00962,Winter,Warm,Medium,Foundation,PID0084,99,2,warm undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00963,Winter,Warm,Medium,Foundation,PID0170,99,3,warm undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00964,Winter,Warm,Medium,Foundation,PID0172,99,4,warm undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00965,Winter,Warm,Medium,Foundation,PID0205,99,5,warm undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00966,Winter,Warm,Medium,Cushion,PID0015,99,1,warm undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00967,Winter,Warm,Medium,Cushion,PID0019,99,2,warm undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00968,Winter,Warm,Medium,Cushion,PID0027,99,3,warm undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00969,Winter,Warm,Medium,Cushion,PID0029,99,4,warm undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00970,Winter,Warm,Medium,Cushion,PID0068,99,5,warm undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00971,Winter,Warm,Medium,Concealer,PID0234,99,1,warm undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00972,Winter,Warm,Medium,Concealer,PID0261,99,2,warm undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00973,Winter,Warm,Medium,Concealer,PID0265,99,3,warm undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00974,Winter,Warm,Medium,Concealer,PID0271,99,4,warm undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00975,Winter,Warm,Medium,Concealer,PID0275,99,5,warm undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID00976,Winter,Warm,Medium,Blush,PID0126,92,1,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID00977,Winter,Warm,Medium,Blush,PID0279,87,2,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID00978,Winter,Warm,Medium,Blush,PID0285,87,3,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID00979,Winter,Warm,Medium,Blush,PID0181,86,4,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID00980,Winter,Warm,Medium,Blush,PID0224,86,5,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID00981,Winter,Warm,Medium,Lipstick,PID0062,95,1,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID00982,Winter,Warm,Medium,Lipstick,PID0112,92,2,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID00983,Winter,Warm,Medium,Lipstick,PID0161,91,3,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID00984,Winter,Warm,Medium,Lipstick,PID0108,86,4,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID00985,Winter,Warm,Medium,Lipstick,PID0114,86,5,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID00986,Winter,Warm,Medium,Eyeshadow,PID0288,77,1,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID00987,Winter,Warm,Medium,Eyeshadow,PID0131,76,2,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID00988,Winter,Warm,Medium,Eyeshadow,PID0070,75,3,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID00989,Winter,Warm,Medium,Eyeshadow,PID0290,72,4,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID00990,Winter,Warm,Medium,Eyeshadow,PID0196,69,5,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID00991,Winter,Warm,Tan,Foundation,PID0085,99,1,warm undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00992,Winter,Warm,Tan,Foundation,PID0206,99,2,warm undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00993,Winter,Warm,Tan,Foundation,PID0084,98,3,warm undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00994,Winter,Warm,Tan,Foundation,PID0170,98,4,warm undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00995,Winter,Warm,Tan,Foundation,PID0172,98,5,warm undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00996,Winter,Warm,Tan,Cushion,PID0094,99,1,warm undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00997,Winter,Warm,Tan,Cushion,PID0105,99,2,warm undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00998,Winter,Warm,Tan,Cushion,PID0221,99,3,warm undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID00999,Winter,Warm,Tan,Cushion,PID0253,99,4,warm undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID01000,Winter,Warm,Tan,Cushion,PID0220,98,5,warm undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID01001,Winter,Warm,Tan,Concealer,PID0236,99,1,warm undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID01002,Winter,Warm,Tan,Concealer,PID0261,99,2,warm undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID01003,Winter,Warm,Tan,Concealer,PID0265,99,3,warm undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID01004,Winter,Warm,Tan,Concealer,PID0271,99,4,warm undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID01005,Winter,Warm,Tan,Concealer,PID0275,99,5,warm undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID01006,Winter,Warm,Tan,Blush,PID0126,86,1,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01007,Winter,Warm,Tan,Blush,PID0279,83,2,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01008,Winter,Warm,Tan,Blush,PID0285,83,3,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01009,Winter,Warm,Tan,Blush,PID0181,82,4,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01010,Winter,Warm,Tan,Blush,PID0224,82,5,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01011,Winter,Warm,Tan,Lipstick,PID0062,91,1,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01012,Winter,Warm,Tan,Lipstick,PID0108,86,2,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01013,Winter,Warm,Tan,Lipstick,PID0112,86,3,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01014,Winter,Warm,Tan,Lipstick,PID0041,85,4,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01015,Winter,Warm,Tan,Lipstick,PID0046,85,5,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01016,Winter,Warm,Tan,Eyeshadow,PID0288,77,1,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01017,Winter,Warm,Tan,Eyeshadow,PID0131,76,2,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01018,Winter,Warm,Tan,Eyeshadow,PID0070,75,3,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01019,Winter,Warm,Tan,Eyeshadow,PID0290,68,4,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01020,Winter,Warm,Tan,Eyeshadow,PID0196,65,5,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01021,Winter,Warm,Deep,Foundation,PID0007,99,1,warm undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID01022,Winter,Warm,Deep,Foundation,PID0085,98,2,warm undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID01023,Winter,Warm,Deep,Foundation,PID0206,98,3,warm undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID01024,Winter,Warm,Deep,Foundation,PID0080,96,4,warm undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID01025,Winter,Warm,Deep,Foundation,PID0084,92,5,warm undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID01026,Winter,Warm,Deep,Cushion,PID0021,99,1,warm undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID01027,Winter,Warm,Deep,Cushion,PID0094,98,2,warm undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID01028,Winter,Warm,Deep,Cushion,PID0105,98,3,warm undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID01029,Winter,Warm,Deep,Cushion,PID0221,98,4,warm undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID01030,Winter,Warm,Deep,Cushion,PID0255,97,5,warm undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID01031,Winter,Warm,Deep,Concealer,PID0236,98,1,warm undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID01032,Winter,Warm,Deep,Concealer,PID0263,97,2,warm undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID01033,Winter,Warm,Deep,Concealer,PID0264,97,3,warm undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID01034,Winter,Warm,Deep,Concealer,PID0273,97,4,warm undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID01035,Winter,Warm,Deep,Concealer,PID0274,97,5,warm undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID01036,Winter,Warm,Deep,Blush,PID0126,86,1,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01037,Winter,Warm,Deep,Blush,PID0277,77,2,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01038,Winter,Warm,Deep,Blush,PID0279,77,3,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01039,Winter,Warm,Deep,Blush,PID0281,77,4,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01040,Winter,Warm,Deep,Blush,PID0283,77,5,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01041,Winter,Warm,Deep,Lipstick,PID0108,86,1,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01042,Winter,Warm,Deep,Lipstick,PID0112,86,2,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01043,Winter,Warm,Deep,Lipstick,PID0041,85,3,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01044,Winter,Warm,Deep,Lipstick,PID0046,85,4,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01045,Winter,Warm,Deep,Lipstick,PID0062,85,5,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01046,Winter,Warm,Deep,Eyeshadow,PID0288,77,1,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01047,Winter,Warm,Deep,Eyeshadow,PID0131,76,2,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01048,Winter,Warm,Deep,Eyeshadow,PID0070,75,3,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01049,Winter,Warm,Deep,Eyeshadow,PID0289,62,4,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01050,Winter,Warm,Deep,Eyeshadow,PID0290,62,5,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01051,Winter,Cool,Fair,Foundation,PID0081,99,1,cool undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID01052,Winter,Cool,Fair,Foundation,PID0164,99,2,cool undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID01053,Winter,Cool,Fair,Foundation,PID0197,99,3,cool undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID01054,Winter,Cool,Fair,Foundation,PID0202,99,4,cool undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID01055,Winter,Cool,Fair,Foundation,PID0212,99,5,cool undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID01056,Winter,Cool,Fair,Cushion,PID0008,99,1,cool undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID01057,Winter,Cool,Fair,Cushion,PID0092,99,2,cool undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID01058,Winter,Cool,Fair,Cushion,PID0104,99,3,cool undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID01059,Winter,Cool,Fair,Cushion,PID0133,99,4,cool undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID01060,Winter,Cool,Fair,Cushion,PID0134,99,5,cool undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID01061,Winter,Cool,Fair,Concealer,PID0030,99,1,cool undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID01062,Winter,Cool,Fair,Concealer,PID0230,99,2,cool undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID01063,Winter,Cool,Fair,Concealer,PID0256,99,3,cool undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID01064,Winter,Cool,Fair,Concealer,PID0257,99,4,cool undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID01065,Winter,Cool,Fair,Concealer,PID0266,99,5,cool undertone and fair skin tone align with the shade depth and undertone in this base product.
+RID01066,Winter,Cool,Fair,Blush,PID0277,93,1,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01067,Winter,Cool,Fair,Blush,PID0281,93,2,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01068,Winter,Cool,Fair,Blush,PID0283,93,3,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01069,Winter,Cool,Fair,Blush,PID0287,93,4,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01070,Winter,Cool,Fair,Blush,PID0120,92,5,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01071,Winter,Cool,Fair,Lipstick,PID0111,92,1,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01072,Winter,Cool,Fair,Lipstick,PID0225,92,2,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01073,Winter,Cool,Fair,Lipstick,PID0226,92,3,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01074,Winter,Cool,Fair,Lipstick,PID0042,91,4,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01075,Winter,Cool,Fair,Lipstick,PID0044,91,5,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01076,Winter,Cool,Fair,Eyeshadow,PID0288,93,1,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01077,Winter,Cool,Fair,Eyeshadow,PID0131,92,2,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01078,Winter,Cool,Fair,Eyeshadow,PID0070,91,3,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01079,Winter,Cool,Fair,Eyeshadow,PID0196,59,4,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01080,Winter,Cool,Fair,Eyeshadow,PID0071,58,5,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01081,Winter,Cool,Light,Foundation,PID0001,99,1,cool undertone and light skin tone align with the shade depth and undertone in this base product.
+RID01082,Winter,Cool,Light,Foundation,PID0082,99,2,cool undertone and light skin tone align with the shade depth and undertone in this base product.
+RID01083,Winter,Cool,Light,Foundation,PID0086,99,3,cool undertone and light skin tone align with the shade depth and undertone in this base product.
+RID01084,Winter,Cool,Light,Foundation,PID0165,99,4,cool undertone and light skin tone align with the shade depth and undertone in this base product.
+RID01085,Winter,Cool,Light,Foundation,PID0166,99,5,cool undertone and light skin tone align with the shade depth and undertone in this base product.
+RID01086,Winter,Cool,Light,Cushion,PID0009,99,1,cool undertone and light skin tone align with the shade depth and undertone in this base product.
+RID01087,Winter,Cool,Light,Cushion,PID0011,99,2,cool undertone and light skin tone align with the shade depth and undertone in this base product.
+RID01088,Winter,Cool,Light,Cushion,PID0022,99,3,cool undertone and light skin tone align with the shade depth and undertone in this base product.
+RID01089,Winter,Cool,Light,Cushion,PID0023,99,4,cool undertone and light skin tone align with the shade depth and undertone in this base product.
+RID01090,Winter,Cool,Light,Cushion,PID0065,99,5,cool undertone and light skin tone align with the shade depth and undertone in this base product.
+RID01091,Winter,Cool,Light,Concealer,PID0031,99,1,cool undertone and light skin tone align with the shade depth and undertone in this base product.
+RID01092,Winter,Cool,Light,Concealer,PID0231,99,2,cool undertone and light skin tone align with the shade depth and undertone in this base product.
+RID01093,Winter,Cool,Light,Concealer,PID0232,99,3,cool undertone and light skin tone align with the shade depth and undertone in this base product.
+RID01094,Winter,Cool,Light,Concealer,PID0258,99,4,cool undertone and light skin tone align with the shade depth and undertone in this base product.
+RID01095,Winter,Cool,Light,Concealer,PID0268,99,5,cool undertone and light skin tone align with the shade depth and undertone in this base product.
+RID01096,Winter,Cool,Light,Blush,PID0277,97,1,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01097,Winter,Cool,Light,Blush,PID0281,97,2,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01098,Winter,Cool,Light,Blush,PID0283,97,3,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01099,Winter,Cool,Light,Blush,PID0287,97,4,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01100,Winter,Cool,Light,Blush,PID0120,96,5,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01101,Winter,Cool,Light,Lipstick,PID0111,96,1,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01102,Winter,Cool,Light,Lipstick,PID0225,96,2,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01103,Winter,Cool,Light,Lipstick,PID0226,96,3,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01104,Winter,Cool,Light,Lipstick,PID0042,95,4,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01105,Winter,Cool,Light,Lipstick,PID0044,95,5,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01106,Winter,Cool,Light,Eyeshadow,PID0288,97,1,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01107,Winter,Cool,Light,Eyeshadow,PID0131,96,2,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01108,Winter,Cool,Light,Eyeshadow,PID0070,95,3,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01109,Winter,Cool,Light,Eyeshadow,PID0289,62,4,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01110,Winter,Cool,Light,Eyeshadow,PID0130,61,5,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01111,Winter,Cool,Medium,Foundation,PID0005,99,1,cool undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID01112,Winter,Cool,Medium,Foundation,PID0084,99,2,cool undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID01113,Winter,Cool,Medium,Foundation,PID0088,99,3,cool undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID01114,Winter,Cool,Medium,Foundation,PID0170,99,4,cool undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID01115,Winter,Cool,Medium,Foundation,PID0172,99,5,cool undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID01116,Winter,Cool,Medium,Cushion,PID0015,99,1,cool undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID01117,Winter,Cool,Medium,Cushion,PID0019,99,2,cool undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID01118,Winter,Cool,Medium,Cushion,PID0027,99,3,cool undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID01119,Winter,Cool,Medium,Cushion,PID0029,99,4,cool undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID01120,Winter,Cool,Medium,Cushion,PID0068,99,5,cool undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID01121,Winter,Cool,Medium,Concealer,PID0234,99,1,cool undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID01122,Winter,Cool,Medium,Concealer,PID0261,99,2,cool undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID01123,Winter,Cool,Medium,Concealer,PID0265,99,3,cool undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID01124,Winter,Cool,Medium,Concealer,PID0271,99,4,cool undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID01125,Winter,Cool,Medium,Concealer,PID0275,99,5,cool undertone and medium skin tone align with the shade depth and undertone in this base product.
+RID01126,Winter,Cool,Medium,Blush,PID0279,97,1,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01127,Winter,Cool,Medium,Blush,PID0285,97,2,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01128,Winter,Cool,Medium,Blush,PID0181,96,3,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01129,Winter,Cool,Medium,Blush,PID0224,96,4,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01130,Winter,Cool,Medium,Blush,PID0037,95,5,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01131,Winter,Cool,Medium,Lipstick,PID0114,96,1,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01132,Winter,Cool,Medium,Lipstick,PID0117,96,2,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01133,Winter,Cool,Medium,Lipstick,PID0118,96,3,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01134,Winter,Cool,Medium,Lipstick,PID0228,96,4,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01135,Winter,Cool,Medium,Lipstick,PID0050,95,5,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01136,Winter,Cool,Medium,Eyeshadow,PID0288,87,1,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01137,Winter,Cool,Medium,Eyeshadow,PID0131,86,2,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01138,Winter,Cool,Medium,Eyeshadow,PID0070,85,3,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01139,Winter,Cool,Medium,Eyeshadow,PID0196,69,4,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01140,Winter,Cool,Medium,Eyeshadow,PID0071,68,5,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01141,Winter,Cool,Tan,Foundation,PID0085,99,1,cool undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID01142,Winter,Cool,Tan,Foundation,PID0089,99,2,cool undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID01143,Winter,Cool,Tan,Foundation,PID0201,99,3,cool undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID01144,Winter,Cool,Tan,Foundation,PID0206,99,4,cool undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID01145,Winter,Cool,Tan,Foundation,PID0084,98,5,cool undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID01146,Winter,Cool,Tan,Cushion,PID0094,99,1,cool undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID01147,Winter,Cool,Tan,Cushion,PID0105,99,2,cool undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID01148,Winter,Cool,Tan,Cushion,PID0107,99,3,cool undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID01149,Winter,Cool,Tan,Cushion,PID0221,99,4,cool undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID01150,Winter,Cool,Tan,Cushion,PID0253,99,5,cool undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID01151,Winter,Cool,Tan,Concealer,PID0236,99,1,cool undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID01152,Winter,Cool,Tan,Concealer,PID0261,99,2,cool undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID01153,Winter,Cool,Tan,Concealer,PID0265,99,3,cool undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID01154,Winter,Cool,Tan,Concealer,PID0271,99,4,cool undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID01155,Winter,Cool,Tan,Concealer,PID0275,99,5,cool undertone and tan skin tone align with the shade depth and undertone in this base product.
+RID01156,Winter,Cool,Tan,Blush,PID0279,93,1,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01157,Winter,Cool,Tan,Blush,PID0285,93,2,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01158,Winter,Cool,Tan,Blush,PID0181,92,3,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01159,Winter,Cool,Tan,Blush,PID0224,92,4,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01160,Winter,Cool,Tan,Blush,PID0037,91,5,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01161,Winter,Cool,Tan,Lipstick,PID0114,92,1,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01162,Winter,Cool,Tan,Lipstick,PID0117,92,2,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01163,Winter,Cool,Tan,Lipstick,PID0118,92,3,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01164,Winter,Cool,Tan,Lipstick,PID0228,92,4,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01165,Winter,Cool,Tan,Lipstick,PID0050,91,5,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01166,Winter,Cool,Tan,Eyeshadow,PID0288,87,1,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01167,Winter,Cool,Tan,Eyeshadow,PID0131,86,2,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01168,Winter,Cool,Tan,Eyeshadow,PID0070,85,3,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01169,Winter,Cool,Tan,Eyeshadow,PID0196,65,4,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01170,Winter,Cool,Tan,Eyeshadow,PID0071,64,5,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01171,Winter,Cool,Deep,Foundation,PID0007,99,1,cool undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID01172,Winter,Cool,Deep,Foundation,PID0090,99,2,cool undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID01173,Winter,Cool,Deep,Foundation,PID0175,99,3,cool undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID01174,Winter,Cool,Deep,Foundation,PID0177,99,4,cool undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID01175,Winter,Cool,Deep,Foundation,PID0085,98,5,cool undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID01176,Winter,Cool,Deep,Cushion,PID0021,99,1,cool undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID01177,Winter,Cool,Deep,Cushion,PID0094,98,2,cool undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID01178,Winter,Cool,Deep,Cushion,PID0105,98,3,cool undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID01179,Winter,Cool,Deep,Cushion,PID0107,98,4,cool undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID01180,Winter,Cool,Deep,Cushion,PID0221,98,5,cool undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID01181,Winter,Cool,Deep,Concealer,PID0236,98,1,cool undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID01182,Winter,Cool,Deep,Concealer,PID0261,93,2,cool undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID01183,Winter,Cool,Deep,Concealer,PID0265,93,3,cool undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID01184,Winter,Cool,Deep,Concealer,PID0271,93,4,cool undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID01185,Winter,Cool,Deep,Concealer,PID0275,93,5,cool undertone and deep skin tone align with the shade depth and undertone in this base product.
+RID01186,Winter,Cool,Deep,Blush,PID0277,87,1,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01187,Winter,Cool,Deep,Blush,PID0279,87,2,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01188,Winter,Cool,Deep,Blush,PID0281,87,3,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01189,Winter,Cool,Deep,Blush,PID0283,87,4,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01190,Winter,Cool,Deep,Blush,PID0285,87,5,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01191,Winter,Cool,Deep,Lipstick,PID0111,86,1,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01192,Winter,Cool,Deep,Lipstick,PID0114,86,2,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01193,Winter,Cool,Deep,Lipstick,PID0117,86,3,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01194,Winter,Cool,Deep,Lipstick,PID0118,86,4,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01195,Winter,Cool,Deep,Lipstick,PID0225,86,5,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01196,Winter,Cool,Deep,Eyeshadow,PID0288,87,1,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01197,Winter,Cool,Deep,Eyeshadow,PID0131,86,2,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01198,Winter,Cool,Deep,Eyeshadow,PID0070,85,3,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01199,Winter,Cool,Deep,Eyeshadow,PID0196,59,4,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."
+RID01200,Winter,Cool,Deep,Eyeshadow,PID0071,58,5,"Winter palettes need cool, vivid colors with contrast, such as berry, plum, and blue red."

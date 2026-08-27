@@ -1,0 +1,539 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  // Supabase pooled connection (port 6543, pgbouncer) — used at runtime.
+  url       = env("DATABASE_URL")
+  // Supabase direct connection (port 5432) — used only by `prisma migrate`,
+  // which needs session-level Postgres features pgbouncer's transaction
+  // pooling mode doesn't support.
+  directUrl = env("DIRECT_URL")
+}
+
+enum Role {
+  USER
+  ADMIN
+  AFFILIATOR
+}
+
+enum AffiliatorStatus {
+  APPROVED
+  PENDING_APPROVAL
+  REJECTED
+  SUSPENDED
+}
+
+enum AffiliatorTier {
+  STARTER
+  PRO
+  ELITE
+}
+
+enum PlanStatus {
+  ACTIVE
+  TRIALING
+  PAST_DUE
+}
+
+enum ListingStatus {
+  ACTIVE
+  DRAFT
+  OUT_OF_STOCK
+}
+
+enum PageStatus {
+  PUBLISHED
+  DRAFT
+}
+
+enum Gender {
+  MALE
+  FEMALE
+  OTHER
+  PREFER_NOT_TO_SAY
+}
+
+enum Occasion {
+  DAILY
+  WORK
+  PARTY
+  WEDDING
+  CASUAL
+}
+
+enum FinishPreference {
+  MATTE
+  NATURAL
+  DEWY
+  GLOSSY
+}
+
+model User {
+  id           String    @id @default(uuid()) @db.Uuid
+  email        String    @unique
+  passwordHash String    @map("password_hash")
+  role         Role      @default(USER)
+  isActive           Boolean   @default(true) @map("is_active")
+  twoFactorSecret    String?   @map("two_factor_secret")
+  isTwoFactorEnabled Boolean   @default(false) @map("is_two_factor_enabled")
+  isEmailVerified    Boolean   @default(false) @map("is_email_verified")
+  emailVerifiedAt    DateTime? @map("email_verified_at")
+  createdAt          DateTime  @default(now()) @map("created_at")
+  updatedAt          DateTime  @updatedAt @map("updated_at")
+
+  profile          Profile?
+  affiliatorProfile AffiliatorProfile?
+  refreshTokens    RefreshToken[]
+  passwordResets   PasswordResetToken[]
+  emailVerifications EmailVerificationToken[]
+  scans            Scan[]
+  recommendations  Recommendation[]
+  scanHistories    ScanHistory[]
+
+  @@map("users")
+}
+
+/// Affiliate-marketing creator account (PRD affiliate SaaS layer), 1:1 with a User whose role is AFFILIATOR.
+model AffiliatorProfile {
+  id                 String   @id @default(uuid()) @db.Uuid
+  userId             String   @unique @map("user_id") @db.Uuid
+  handle             String   @unique
+  avatarUrl          String?  @map("avatar_url")
+  bio                String?
+  niche              String?
+  /// {tiktok?, instagram?, youtube?, ltk?}
+  socialPlatforms    Json     @default("{}") @map("social_platforms")
+  /// Stored plaintext (unlike passwordHash/tokenHash) because the UI must redisplay it verbatim — accepted capstone-scope simplification.
+  apiKey             String   @unique @map("api_key")
+  status             AffiliatorStatus @default(PENDING_APPROVAL)
+  tier               AffiliatorTier   @default(STARTER)
+  planStatus         PlanStatus       @default(TRIALING)
+  monthlyScanUsage   Int      @default(0) @map("monthly_scan_usage")
+  monthlyScanLimit   Int      @default(1000) @map("monthly_scan_limit")
+  notifyEmailDigest      Boolean @default(true) @map("notify_email_digest")
+  notifyConversionAlerts Boolean @default(true) @map("notify_conversion_alerts")
+  notifyWeeklyReport     Boolean @default(true) @map("notify_weekly_report")
+  notifyNewFeatures      Boolean @default(false) @map("notify_new_features")
+  followersCount     String   @default("0") @map("followers_count")
+  joinedAt           DateTime @default(now()) @map("joined_at")
+  createdAt          DateTime @default(now()) @map("created_at")
+  updatedAt          DateTime @updatedAt @map("updated_at")
+
+  user     User               @relation(fields: [userId], references: [id], onDelete: Cascade)
+  listings AffiliatorListing[]
+  pages    AIPage[]
+
+  @@map("affiliator_profiles")
+}
+
+/// Branded public scan/quiz page owned by an affiliator (frontend AIPageConfig).
+model AIPage {
+  id                String   @id @default(uuid()) @db.Uuid
+  affiliatorId      String   @map("affiliator_id") @db.Uuid
+  slug              String   @unique
+  title             String
+  bio               String?
+  welcomeMessage    String?  @map("welcome_message")
+  primaryColor      String   @map("primary_color")
+  accentColor       String   @map("accent_color")
+  allowCameraUpload Boolean  @default(true) @map("allow_camera_upload")
+  customDomain      String?  @map("custom_domain")
+  status            PageStatus @default(DRAFT)
+  createdAt         DateTime @default(now()) @map("created_at")
+  updatedAt         DateTime @updatedAt @map("updated_at")
+
+  affiliator AffiliatorProfile        @relation(fields: [affiliatorId], references: [id], onDelete: Cascade)
+  featured   AIPageFeaturedListing[]
+  leads      CustomerLead[]
+  scans      Scan[]
+  views      PageViewEvent[]
+
+  @@map("ai_pages")
+}
+
+/// Ordered featured-product carousel for an AIPage.
+model AIPageFeaturedListing {
+  aiPageId  String @map("ai_page_id") @db.Uuid
+  listingId String @map("listing_id") @db.Uuid
+  position  Int    @default(0)
+
+  aiPage  AIPage            @relation(fields: [aiPageId], references: [id], onDelete: Cascade)
+  listing AffiliatorListing @relation(fields: [listingId], references: [id], onDelete: Cascade)
+
+  @@id([aiPageId, listingId])
+  @@map("ai_page_featured_listings")
+}
+
+/// An affiliator's own listing of a master-catalog Product (frontend flat Product type = Product + AffiliatorListing merged).
+model AffiliatorListing {
+  id                    String   @id @default(uuid()) @db.Uuid
+  affiliatorId          String   @map("affiliator_id") @db.Uuid
+  productId             String   @map("product_id") @db.Uuid
+  affiliateUrl          String   @map("affiliate_url")
+  priceOverride         Int?     @map("price_override")
+  originalPriceOverride Int?     @map("original_price_override")
+  shadeOverride         String?  @map("shade_override")
+  status                ListingStatus @default(ACTIVE)
+  matchScoreWeight      Int      @default(80) @map("match_score_weight")
+  affiliatorNote        String?  @map("affiliator_note")
+  /// Denormalized counters (hot path, rendered per-row in bulk tables) — kept in sync with ClickEvent inserts.
+  clicks                Int      @default(0)
+  conversions           Int      @default(0)
+  revenueGenerated      Int      @default(0) @map("revenue_generated")
+  createdAt             DateTime @default(now()) @map("created_at")
+  updatedAt             DateTime @updatedAt @map("updated_at")
+
+  affiliator          AffiliatorProfile         @relation(fields: [affiliatorId], references: [id], onDelete: Cascade)
+  product             Product                    @relation(fields: [productId], references: [id], onDelete: Cascade)
+  featuredOn          AIPageFeaturedListing[]
+  clickEvents         ClickEvent[]
+  recommendationLinks RecommendationProduct[]
+
+  @@unique([affiliatorId, productId])
+  @@map("affiliator_listings")
+}
+
+/// Append-only click/conversion log — source of truth for AnalyticsView's time-series trends (AffiliatorListing counters are denormalized from this).
+model ClickEvent {
+  id           String   @id @default(uuid()) @db.Uuid
+  affiliatorId String   @map("affiliator_id") @db.Uuid
+  listingId    String   @map("listing_id") @db.Uuid
+  leadId       String?  @map("lead_id") @db.Uuid
+  converted    Boolean  @default(false)
+  revenue      Int      @default(0)
+  createdAt    DateTime @default(now()) @map("created_at")
+
+  listing AffiliatorListing @relation(fields: [listingId], references: [id], onDelete: Cascade)
+  lead    CustomerLead?     @relation(fields: [leadId], references: [id], onDelete: SetNull)
+
+  @@index([affiliatorId, createdAt(sort: Desc)])
+  @@map("click_events")
+}
+
+/// Page-view log for AIPage.totalViews / AnalyticsSummary.totalVisitors (computed on read, not stored).
+model PageViewEvent {
+  id        String   @id @default(uuid()) @db.Uuid
+  aiPageId  String   @map("ai_page_id") @db.Uuid
+  createdAt DateTime @default(now()) @map("created_at")
+
+  aiPage AIPage @relation(fields: [aiPageId], references: [id], onDelete: Cascade)
+
+  @@index([aiPageId, createdAt(sort: Desc)])
+  @@map("page_view_events")
+}
+
+/// Anonymous end-customer who completed a public AIPage scan (frontend CustomerLead). AI-analysis fields live on the linked Scan, not duplicated here.
+model CustomerLead {
+  id                  String   @id @default(uuid()) @db.Uuid
+  scanId              String   @unique @map("scan_id") @db.Uuid
+  aiPageId            String   @map("ai_page_id") @db.Uuid
+  followerName        String?  @map("follower_name")
+  followerHandle      String?  @map("follower_handle")
+  email               String?
+  selfieUrl           String?  @map("selfie_url")
+  location            String?
+  /// Denormalized product name at creation time (frontend CustomerLead.topMatchedProduct)
+  topMatchedProduct   String?  @map("top_matched_product")
+  matchedProductCount Int      @default(0) @map("matched_product_count")
+  clickedAffiliate    Boolean  @default(false) @map("clicked_affiliate")
+  estimatedCommission Int      @default(0) @map("estimated_commission")
+  createdAt           DateTime @default(now()) @map("created_at")
+
+  scan        Scan         @relation(fields: [scanId], references: [id], onDelete: Cascade)
+  aiPage      AIPage       @relation(fields: [aiPageId], references: [id], onDelete: Cascade)
+  clickEvents ClickEvent[]
+
+  @@index([aiPageId, createdAt(sort: Desc)])
+  @@map("customer_leads")
+}
+
+/// User identity + beauty preference questionnaire (PRD Feature 2).
+model Profile {
+  id                String            @id @default(uuid()) @db.Uuid
+  userId            String            @unique @map("user_id") @db.Uuid
+  name              String?
+  gender            Gender?
+  age               Int?
+  /// Max budget in IDR (e.g. 300000)
+  budgetMax         Int?              @map("budget_max")
+  favoriteBrands    String[]          @default([]) @map("favorite_brands")
+  occasion          Occasion?
+  finishPreference  FinishPreference? @map("finish_preference")
+  skinType          String?
+  /// Preferred makeup categories: Face, Lips, Eyes, Cheeks
+  preferredCategories String[]        @default([]) @map("preferred_categories")
+  allergies         String[]          @default([])
+  currentProducts   String[]          @default([]) @map("current_products")
+  createdAt         DateTime          @default(now()) @map("created_at")
+  updatedAt         DateTime          @updatedAt @map("updated_at")
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("profiles")
+}
+
+model RefreshToken {
+  id        String    @id @default(uuid()) @db.Uuid
+  userId    String    @map("user_id") @db.Uuid
+  tokenHash String    @unique @map("token_hash")
+  expiresAt DateTime  @map("expires_at")
+  revokedAt DateTime? @map("revoked_at")
+  createdAt DateTime  @default(now()) @map("created_at")
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@map("refresh_tokens")
+}
+
+model PasswordResetToken {
+  id        String    @id @default(uuid()) @db.Uuid
+  userId    String    @map("user_id") @db.Uuid
+  tokenHash String    @unique @map("token_hash")
+  expiresAt DateTime  @map("expires_at")
+  usedAt    DateTime? @map("used_at")
+  createdAt DateTime  @default(now()) @map("created_at")
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@map("password_reset_tokens")
+}
+
+model EmailVerificationToken {
+  id        String    @id @default(uuid()) @db.Uuid
+  userId    String    @map("user_id") @db.Uuid
+  tokenHash String    @unique @map("token_hash")
+  expiresAt DateTime  @map("expires_at")
+  usedAt    DateTime? @map("used_at")
+  createdAt DateTime  @default(now()) @map("created_at")
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@map("email_verification_tokens")
+}
+
+/// Makeup type taxonomy (Foundation, Concealer, …).
+model Ingredient {
+  id          String   @id @default(uuid()) @db.Uuid
+  name        String   @unique
+  slug        String   @unique
+  description String?
+  benefits    String[] @default([])
+  concerns    String[] @default([])
+  createdAt   DateTime @default(now()) @map("created_at")
+  updatedAt   DateTime @updatedAt @map("updated_at")
+
+  products              ProductIngredient[]
+  recommendationLinks   RecommendationIngredient[]
+
+  @@map("ingredients")
+}
+
+model Product {
+  id            String   @id @default(uuid()) @db.Uuid
+  socoId        String?  @unique @map("soco_id")
+  /// Original product_id from dataset\data\products.csv (e.g. "PID0001")
+  datasetId     String?  @unique @map("dataset_id")
+  brand         String
+  name          String
+  slug          String   @unique
+  description   String
+  imageUrl      String?  @map("image_url")
+  category      String   @default("Makeup")
+  subcategory   String?  @map("subcategory")
+  /// 'Lips' | 'Face & Shade' (frontend MainCategory)
+  mainCategory  String?  @map("main_category")
+  /// matte | natural | dewy | glossy (inferred or curated)
+  finish        String?
+  /// warm | cool | neutral | universal
+  undertoneMatch String? @map("undertone_match")
+  usage         String?
+  benefits      String[] @default([])
+  tags          String[] @default([])
+  rating        Float?   @map("rating")
+  reviewCount   Int      @default(0) @map("review_count")
+  minPrice      Int?     @map("min_price")
+  maxPrice      Int?     @map("max_price")
+  /// Single display price in IDR (frontend Product.price)
+  price         Int      @default(0)
+  originalPrice Int?     @map("original_price")
+  /// Combined shade name + code, e.g. "22N Light Ivory (22N)"
+  shade         String?
+  suitableSkinTones    String[] @default([]) @map("suitable_skin_tones")
+  suitableUndertones   String[] @default([]) @map("suitable_undertones")
+  suitableSkinTypes    String[] @default([]) @map("suitable_skin_types")
+  targetsConcerns      String[] @default([]) @map("targets_concerns")
+  /// 0-100 catalog-level default weight used in match scoring
+  matchScoreWeight     Int      @default(80) @map("match_score_weight")
+  sourceUrl     String?  @map("source_url")
+  /// Affiliate / marketplace checkout URL (PRD Feature 5)
+  affiliateUrl  String?  @map("affiliate_url")
+  isActive      Boolean  @default(true) @map("is_active")
+  createdAt     DateTime @default(now()) @map("created_at")
+  updatedAt     DateTime @updatedAt @map("updated_at")
+
+  ingredients           ProductIngredient[]
+  recommendationLinks   RecommendationProduct[]
+  recommendationRules   RecommendationRule[]
+  affiliatorListings    AffiliatorListing[]
+
+  @@index([brand])
+  @@index([category])
+  @@index([subcategory])
+  @@index([mainCategory])
+  @@index([finish])
+  @@index([reviewCount(sort: Desc)])
+  @@map("products")
+}
+
+/// Static personal_color/undertone/skin_tone → color-family lookup, imported from dataset\data\shade_mapping.csv
+model ShadeMapping {
+  id                           String   @id @default(uuid()) @db.Uuid
+  personalColor                String   @map("personal_color")
+  undertone                    String
+  skinTone                     String   @map("skin_tone")
+  recommendedFoundationFamily  String   @map("recommended_foundation_family")
+  recommendedBlushColor        String   @map("recommended_blush_color")
+  recommendedLipColor          String   @map("recommended_lip_color")
+  recommendedEyeshadowPalette  String   @map("recommended_eyeshadow_palette")
+  recommendedJewelryColor      String   @map("recommended_jewelry_color")
+  recommendedClothingPalette   String   @map("recommended_clothing_palette")
+  avoidedColors                String   @map("avoided_colors")
+  notes                        String
+  createdAt                    DateTime @default(now()) @map("created_at")
+  updatedAt                    DateTime @updatedAt @map("updated_at")
+
+  @@unique([personalColor, undertone, skinTone])
+  @@map("shade_mappings")
+}
+
+/// Static personal_color/undertone/skin_tone/category → ranked product lookup, imported from dataset\data\recommendations.csv
+model RecommendationRule {
+  id                   String   @id @default(uuid()) @db.Uuid
+  /// Original recommendation_id from the CSV (e.g. "RID00001"), used as the idempotency key on import
+  datasetId            String   @unique @map("dataset_id")
+  personalColor        String   @map("personal_color")
+  undertone             String
+  skinTone              String   @map("skin_tone")
+  category              String
+  productId             String   @map("product_id") @db.Uuid
+  recommendationScore   Int      @map("recommendation_score")
+  priority              Int
+  reason                String
+  createdAt             DateTime @default(now()) @map("created_at")
+
+  product Product @relation(fields: [productId], references: [id], onDelete: Cascade)
+
+  @@index([personalColor, undertone, skinTone, category, priority])
+  @@map("recommendation_rules")
+}
+
+model ProductIngredient {
+  productId    String @map("product_id") @db.Uuid
+  ingredientId String @map("ingredient_id") @db.Uuid
+
+  product    Product    @relation(fields: [productId], references: [id], onDelete: Cascade)
+  ingredient Ingredient @relation(fields: [ingredientId], references: [id], onDelete: Cascade)
+
+  @@id([productId, ingredientId])
+  @@map("product_ingredients")
+}
+
+/// AI face analysis result (PRD Feature 1).
+model Scan {
+  id          String   @id @default(uuid()) @db.Uuid
+  /// Optional: null for anonymous public AIPage visitors (see CustomerLead)
+  userId      String?  @map("user_id") @db.Uuid
+  aiPageId    String?  @map("ai_page_id") @db.Uuid
+  imagePath   String?  @map("image_path")
+  skinTone    String   @map("skin_tone")
+  undertone   String
+  faceShape   String   @map("face_shape")
+  confidence  Float
+  rawAiResponse Json   @map("raw_ai_response")
+  /// Backend-derived (never AI-sourced) — see derivePersonalColor()
+  personalColor String? @map("personal_color")
+  skinType    String?  @map("skin_type")
+  concerns    String[] @default([])
+  /// [{name, colorHex}] resolved from ShadeMapping at scan time
+  bestColorPalette Json? @map("best_color_palette")
+  /// Gemini-generated Bahasa Indonesia narrative summarizing this scan,
+  /// grounded in bestColorPalette + matched products. Null when Gemini is
+  /// unconfigured or the call failed — frontend falls back to its own
+  /// template in that case (see GeminiClient.generateScanNarrative).
+  matchSummary String? @map("match_summary")
+  createdAt   DateTime @default(now()) @map("created_at")
+
+  user            User?            @relation(fields: [userId], references: [id], onDelete: Cascade)
+  aiPage          AIPage?          @relation(fields: [aiPageId], references: [id], onDelete: SetNull)
+  recommendation  Recommendation?
+  history         ScanHistory?
+  lead            CustomerLead?
+
+  @@index([userId, createdAt(sort: Desc)])
+  @@map("scans")
+}
+
+model Recommendation {
+  id        String   @id @default(uuid()) @db.Uuid
+  /// Optional: null for recommendations generated from an anonymous public AIPage scan
+  userId    String?  @map("user_id") @db.Uuid
+  scanId    String   @unique @map("scan_id") @db.Uuid
+  /// Explainable reasons + ranked matches (PRD Feature 3–4)
+  reasons   Json
+  createdAt DateTime @default(now()) @map("created_at")
+
+  user        User?                        @relation(fields: [userId], references: [id], onDelete: Cascade)
+  scan        Scan                         @relation(fields: [scanId], references: [id], onDelete: Cascade)
+  ingredients RecommendationIngredient[]
+  products    RecommendationProduct[]
+
+  @@index([userId, createdAt(sort: Desc)])
+  @@map("recommendations")
+}
+
+model RecommendationIngredient {
+  recommendationId String @map("recommendation_id") @db.Uuid
+  ingredientId     String @map("ingredient_id") @db.Uuid
+
+  recommendation Recommendation @relation(fields: [recommendationId], references: [id], onDelete: Cascade)
+  ingredient     Ingredient     @relation(fields: [ingredientId], references: [id], onDelete: Cascade)
+
+  @@id([recommendationId, ingredientId])
+  @@map("recommendation_ingredients")
+}
+
+model RecommendationProduct {
+  recommendationId String @map("recommendation_id") @db.Uuid
+  productId        String @map("product_id") @db.Uuid
+  /// Set only when generated in the context of a public AIPage scan, scoped to that affiliator's own listing.
+  listingId        String? @map("listing_id") @db.Uuid
+  matchScore       Float  @default(0) @map("match_score")
+  explanations     String[] @default([])
+
+  recommendation Recommendation      @relation(fields: [recommendationId], references: [id], onDelete: Cascade)
+  product        Product             @relation(fields: [productId], references: [id], onDelete: Cascade)
+  listing        AffiliatorListing?  @relation(fields: [listingId], references: [id], onDelete: SetNull)
+
+  @@id([recommendationId, productId])
+  @@map("recommendation_products")
+}
+
+model ScanHistory {
+  id        String   @id @default(uuid()) @db.Uuid
+  userId    String   @map("user_id") @db.Uuid
+  scanId    String   @unique @map("scan_id") @db.Uuid
+  summary   String
+  createdAt DateTime @default(now()) @map("created_at")
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  scan Scan @relation(fields: [scanId], references: [id], onDelete: Cascade)
+
+  @@index([userId, createdAt(sort: Desc)])
+  @@map("scan_histories")
+}
+
