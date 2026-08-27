@@ -31,3 +31,4 @@ graphify-out/
 
 # Supabase CLI local cache/link state — machine-specific, never commit
 supabase/.temp/
+.vercel
