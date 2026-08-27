@@ -44,6 +44,7 @@ export function createApp(options: CreateAppOptions = {}): Application {
       credentials: true,
     }),
   );
+  app.use(compression());
   app.use((req, res, next) => {
     if (req.body !== undefined && typeof req.body === 'object') {
       return next();
