@@ -1,0 +1,45 @@
+services:
+  # ---------------------------------------------------------------------------
+  # Node.js Express API Service
+  # ---------------------------------------------------------------------------
+  - type: web
+    name: aura-api
+    env: node
+    rootDir: api
+    buildCommand: npm install && npx prisma generate && npm run build
+    startCommand: npx prisma migrate deploy && npm start
+    plan: free
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 3000
+      - key: DATABASE_URL
+        sync: false
+      - key: DIRECT_URL
+        sync: false
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_SERVICE_ROLE_KEY
+        sync: false
+      - key: SUPABASE_STORAGE_BUCKET
+        value: aura-scans
+      - key: JWT_SECRET
+        generateValue: true
+      - key: AI_SERVICE_URL
+        sync: false
+      - key: CORS_ORIGIN
+        value: "*"
+
+  # ---------------------------------------------------------------------------
+  # Python FastAPI AI Service (Opsional jika dideploy di Render)
+  # ---------------------------------------------------------------------------
+  - type: web
+    name: aura-ai-service
+    env: python
+    buildCommand: pip install -r ai-pipeline/requirements.txt -r ai-service/requirements.txt
+    startCommand: cd ai-service && uvicorn api:app --host 0.0.0.0 --port $PORT
+    plan: free
+    envVars:
+      - key: ALLOWED_ORIGINS
+        value: "*"

@@ -1,0 +1,38 @@
+FROM python:3.11-slim
+
+# Install system dependencies needed for OpenCV and MediaPipe
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    libgl1 \
+    libglib2.0-0 \
+    wget \
+    curl \
+    && rm -rf /var/lib/apt/lists/*
+
+# Create non-root user (compatible with Hugging Face Spaces and security best practices)
+RUN useradd -m -u 1000 appuser
+WORKDIR /app
+
+# Copy requirements files first for efficient caching
+COPY --chown=appuser:appuser ai-pipeline/requirements.txt /app/ai-pipeline/requirements.txt
+COPY --chown=appuser:appuser ai-service/requirements.txt /app/ai-service/requirements.txt
+
+# Install python dependencies
+RUN pip install --no-cache-dir -r /app/ai-pipeline/requirements.txt \
+    && pip install --no-cache-dir -r /app/ai-service/requirements.txt
+
+# Copy source code
+COPY --chown=appuser:appuser ai-pipeline /app/ai-pipeline
+COPY --chown=appuser:appuser ai-service /app/ai-service
+
+USER appuser
+ENV HOME=/home/appuser \
+    PATH=/home/appuser/.local/bin:$PATH \
+    ML_PROJECT_PATH=/app/ai-pipeline \
+    MODEL_PATH=/app/ai-pipeline/models/face_landmarker.task \
+    PORT=7860
+
+WORKDIR /app/ai-service
+
+EXPOSE 7860 8000
+
+CMD ["sh", "-c", "uvicorn api:app --host 0.0.0.0 --port ${PORT:-7860}"]

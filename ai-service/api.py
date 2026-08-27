@@ -59,10 +59,11 @@ MODEL_PATH = os.environ.get(
     "MODEL_PATH", os.path.join(ML_PROJECT_PATH, "models", "face_landmarker.task")
 )
 
-# Origin FE yang diizinkan mengakses API ini. Untuk produksi, GANTI ke domain
-# asli (bukan localhost) -- jangan pernah pakai "*" bersamaan dengan endpoint
-# yang menerima upload file dari publik.
-ALLOWED_ORIGINS = os.environ.get("ALLOWED_ORIGINS", "http://localhost:5173").split(",")
+raw_origins = os.environ.get("ALLOWED_ORIGINS", "*")
+if raw_origins.strip() == "*":
+    ALLOWED_ORIGINS = ["*"]
+else:
+    ALLOWED_ORIGINS = [o.strip() for o in raw_origins.split(",") if o.strip()]
 
 # Instance pipeline global -- diisi SEKALI saat startup lewat lifespan(),
 # BUKAN dibuat ulang per-request. Re-inisialisasi FaceLandmarker per-request
@@ -92,7 +93,8 @@ app = FastAPI(title="Face Analysis API", lifespan=lifespan)
 app.add_middleware(
     CORSMiddleware,
     allow_origins=ALLOWED_ORIGINS,
-    allow_methods=["POST"],
+    allow_credentials=True,
+    allow_methods=["*"],
     allow_headers=["*"],
 )
 
