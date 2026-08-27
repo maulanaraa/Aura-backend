@@ -1,9 +1,9 @@
-import { createApp } from '../src/app/create-app.js';
-import { connectDatabase } from '../src/database/prisma.js';
+import { createApp } from '../dist/app/create-app.js';
+import { connectDatabase } from '../dist/database/prisma.js';
 
-let appInstance: any = null;
+let appInstance = null;
 
-export default async function handler(req: any, res: any) {
+export default async function handler(req, res) {
   try {
     await connectDatabase();
     if (!appInstance) {
